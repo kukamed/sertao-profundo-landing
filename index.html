@@ -16,10 +16,10 @@
 <meta property="og:site_name" content="Ateliê Sertão Profundo">
 <meta property="og:title" content="Camisetas Nordestinas Autorais | Ateliê Sertão Profundo">
 <meta property="og:description" content="Camisetas com estampas nordestinas autorais, inspiradas na arte, na música e na poesia do Sertão. Parcele em até 6x e receba em todo o Brasil.">
-<!-- AJUSTAR: usar imagem real da marca em 1200x630px (proporção 1.91:1), formato JPG ou PNG -->
-<meta property="og:image" content="https://atelie.sertaoprofundo.com/og-image.jpg">
-<meta property="og:image:width" content="1200">
-<meta property="og:image:height" content="630">
+<!-- Foto real do produto Fé na Festa; recomenda-se futuramente uma arte dedicada em 1200x630 (1.91:1) -->
+<meta property="og:image" content="https://kukamed.github.io/sertao-profundo-landing/img/hero-fe-na-festa.webp">
+<meta property="og:image:width" content="800">
+<meta property="og:image:height" content="820">
 <meta property="og:url" content="https://kukamed.github.io/sertao-profundo-landing/">
 <meta property="og:locale" content="pt_BR">
 
@@ -27,7 +27,7 @@
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Camisetas Nordestinas Autorais | Ateliê Sertão Profundo">
 <meta name="twitter:description" content="Camisetas com estampas nordestinas autorais, inspiradas na arte, na música e na poesia do Sertão. Parcele em até 6x e receba em todo o Brasil.">
-<meta name="twitter:image" content="https://atelie.sertaoprofundo.com/og-image.jpg">
+<meta name="twitter:image" content="https://kukamed.github.io/sertao-profundo-landing/img/hero-fe-na-festa.webp">
 
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='9' fill='%23E9A63B'/%3E%3Cg stroke='%23A8431A' stroke-width='2.4' stroke-linecap='round'%3E%3Cpath d='M16 1v4M16 27v4M1 16h4M27 16h4M5.4 5.4l2.8 2.8M23.8 23.8l2.8 2.8M26.6 5.4l-2.8 2.8M8.2 23.8l-2.8 2.8'/%3E%3C/g%3E%3C/svg%3E">
 
@@ -175,6 +175,7 @@ a:hover{color:var(--terracota-escura)}
   border-radius:var(--raio);overflow:hidden;box-shadow:var(--sombra);
   border:6px solid var(--branco);transform:rotate(1.5deg);
 }
+.hero-visual .moldura img{width:100%;height:auto;display:block}
 .hero-visual figcaption{
   margin-top:.9rem;font-size:.85rem;color:var(--tinta-suave);text-align:center;font-style:italic;
 }
@@ -212,8 +213,8 @@ a:hover{color:var(--terracota-escura)}
   display:flex;flex-direction:column;transition:transform .2s ease;
 }
 .card-colecao:hover{transform:translateY(-5px);color:var(--tinta)}
-.card-colecao .vitrine{aspect-ratio:4/3;display:grid;place-items:center;position:relative}
-.card-colecao .vitrine svg{width:56%;max-height:78%}
+.card-colecao .vitrine{aspect-ratio:4/3;position:relative;overflow:hidden}
+.card-colecao .vitrine img{width:100%;height:100%;object-fit:cover;display:block}
 .card-colecao .corpo{padding:1.1rem 1.2rem 1.3rem}
 .card-colecao h3{margin-bottom:.35rem;font-size:1.15rem}
 .card-colecao p{font-size:.9rem;color:var(--tinta-suave);margin:0 0 .6rem}
@@ -232,8 +233,8 @@ a:hover{color:var(--terracota-escura)}
   transition:transform .2s ease;
 }
 .card-produto:hover{transform:translateY(-5px)}
-.card-produto .estampa{aspect-ratio:1/1;display:grid;place-items:center;position:relative}
-.card-produto .estampa svg{width:52%;max-height:70%}
+.card-produto .estampa{aspect-ratio:1/1;position:relative;overflow:hidden}
+.card-produto .estampa img{width:100%;height:100%;object-fit:cover;display:block}
 .tag-categoria{
   position:absolute;top:.8rem;left:.8rem;background:rgba(255,253,248,.92);
   font-size:.72rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;
@@ -433,6 +434,7 @@ a:hover{color:var(--terracota-escura)}
       "item": {
         "@type": "Product",
         "name": "Camiseta Fé na Festa",
+        "image": "https://kukamed.github.io/sertao-profundo-landing/img/fe-na-festa.webp",
         "category": "Camiseta",
         "url": "https://atelie.sertaoprofundo.com/ateliesertaoprofundo/product/fe-na-festa",
         "brand": { "@type": "Brand", "name": "Ateliê Sertão Profundo" },
@@ -445,6 +447,7 @@ a:hover{color:var(--terracota-escura)}
       "item": {
         "@type": "Product",
         "name": "Camiseta O Voo do Carcará",
+        "image": "https://kukamed.github.io/sertao-profundo-landing/img/o-voo-do-carcara.webp",
         "category": "Camiseta",
         "url": "https://atelie.sertaoprofundo.com/ateliesertaoprofundo/product/o-voo-do-carcara",
         "brand": { "@type": "Brand", "name": "Ateliê Sertão Profundo" },
@@ -457,6 +460,7 @@ a:hover{color:var(--terracota-escura)}
       "item": {
         "@type": "Product",
         "name": "Camiseta Cacto em Terracota",
+        "image": "https://kukamed.github.io/sertao-profundo-landing/img/cacto-em-terracota.webp",
         "category": "Camiseta",
         "url": "https://atelie.sertaoprofundo.com/ateliesertaoprofundo/product/cacto-em-terracota",
         "brand": { "@type": "Brand", "name": "Ateliê Sertão Profundo" },
@@ -469,6 +473,7 @@ a:hover{color:var(--terracota-escura)}
       "item": {
         "@type": "Product",
         "name": "Camiseta Céu e Chão",
+        "image": "https://kukamed.github.io/sertao-profundo-landing/img/ceu-e-chao.webp",
         "category": "Camiseta",
         "url": "https://atelie.sertaoprofundo.com/ateliesertaoprofundo/product/ceu-e-chao",
         "brand": { "@type": "Brand", "name": "Ateliê Sertão Profundo" },
@@ -481,6 +486,7 @@ a:hover{color:var(--terracota-escura)}
       "item": {
         "@type": "Product",
         "name": "Camiseta Guardião do Maracatu",
+        "image": "https://kukamed.github.io/sertao-profundo-landing/img/guardiao-do-maracatu.webp",
         "category": "Camiseta",
         "url": "https://atelie.sertaoprofundo.com/ateliesertaoprofundo/product/guardiao-do-maracatu",
         "brand": { "@type": "Brand", "name": "Ateliê Sertão Profundo" },
@@ -493,6 +499,7 @@ a:hover{color:var(--terracota-escura)}
       "item": {
         "@type": "Product",
         "name": "Camiseta Coroa do Cangaceiro",
+        "image": "https://kukamed.github.io/sertao-profundo-landing/img/coroa-do-cangaceiro.webp",
         "category": "Camiseta",
         "url": "https://atelie.sertaoprofundo.com/ateliesertaoprofundo/product/coroa-do-cangaceiro",
         "brand": { "@type": "Brand", "name": "Ateliê Sertão Profundo" },
@@ -505,6 +512,7 @@ a:hover{color:var(--terracota-escura)}
       "item": {
         "@type": "Product",
         "name": "Camiseta Trio de Forró",
+        "image": "https://kukamed.github.io/sertao-profundo-landing/img/trio-de-forro.webp",
         "category": "Camiseta",
         "url": "https://atelie.sertaoprofundo.com/ateliesertaoprofundo/product/trio-de-forro-7ddecba6-5f9c-43f2-93cf-b3eb12973895",
         "brand": { "@type": "Brand", "name": "Ateliê Sertão Profundo" },
@@ -517,6 +525,7 @@ a:hover{color:var(--terracota-escura)}
       "item": {
         "@type": "Product",
         "name": "Camiseta Pé de Bode",
+        "image": "https://kukamed.github.io/sertao-profundo-landing/img/pe-de-bode.webp",
         "category": "Camiseta",
         "url": "https://atelie.sertaoprofundo.com/ateliesertaoprofundo/product/pe-de-bode",
         "brand": { "@type": "Brand", "name": "Ateliê Sertão Profundo" },
@@ -691,46 +700,11 @@ a:hover{color:var(--terracota-escura)}
       </p>
     </div>
 
-    <!--
-      IMAGEM REAL SUGERIDA (hero): fotografia de uma camiseta da marca em uso, com a estampa
-      bem visível (ex.: "Fé na Festa" ou "O Voo do Carcará"), luz natural, fundo neutro.
-      Formato WebP/AVIF, ~1200x1500px, SEM lazy loading (é a imagem principal), com
-      width/height definidos e fetchpriority="high".
-      Alt sugerido: "Camiseta autoral com estampa inspirada nas festas do Sertão nordestino."
-      A ilustração abaixo é um marcador temporário no estilo da marca.
-    -->
     <figure class="hero-visual">
       <div class="moldura">
-        <svg viewBox="0 0 600 720" role="img" aria-label="Ilustração de sol, mandacarus e pássaros no Sertão, no estilo das estampas da marca">
-          <rect width="600" height="720" fill="#EFE3CC"/>
-          <circle cx="300" cy="270" r="150" fill="#E9A63B"/>
-          <g stroke="#A8431A" stroke-width="7" stroke-linecap="round">
-            <path d="M300 70v46M300 424v46M100 270h46M454 270h46M158 128l33 33M409 379l33 33M442 128l-33 33M191 379l-33 33"/>
-          </g>
-          <circle cx="300" cy="270" r="112" fill="#D97B33"/>
-          <g fill="none" stroke="#7E3213" stroke-width="5" stroke-linecap="round">
-            <path d="M255 250c8 12 22 12 30 0M315 250c8 12 22 12 30 0"/>
-            <path d="M262 305c22 20 54 20 76 0"/>
-          </g>
-          <g fill="#2A1B12">
-            <path d="M120 96c10-8 26-8 34 2-12 2-16 8-14 16-10 0-20-8-20-18Z"/>
-            <path d="M462 78c10-8 26-8 34 2-12 2-16 8-14 16-10 0-20-8-20-18Z"/>
-          </g>
-          <g fill="#3F6B4F">
-            <path d="M96 720V486c0-22 34-22 34 0v58c0 8 12 8 12 0v-96c0-22 34-22 34 0v96c0 30-22 40-40 40h-6v136Z"/>
-            <path d="M474 720V520c0-20 30-20 30 0v40c0 7 11 7 11 0v-70c0-20 30-20 30 0v70c0 27-20 36-36 36h-5v124Z"/>
-          </g>
-          <g stroke="#2F5140" stroke-width="3" stroke-linecap="round">
-            <path d="M113 540v120M130 560v100M491 580v100M506 596v84"/>
-          </g>
-          <path d="M0 640c100-36 220-54 300-54s200 18 300 54v80H0Z" fill="#C77B4A"/>
-          <path d="M0 668c100-30 210-46 300-46s200 16 300 46v52H0Z" fill="#A8431A"/>
-          <g stroke="#7E3213" stroke-width="3" stroke-linecap="round" opacity=".6">
-            <path d="M60 676c40-10 90-18 130-22M420 652c50 4 100 12 130 22"/>
-          </g>
-        </svg>
+        <img src="img/hero-fe-na-festa.webp" alt="Camiseta preta do Ateliê Sertão Profundo pendurada em cabide, com a estampa Fé na Festa: os santos juninos Santo Antônio, São João e São Pedro em altares, entre mandacarus e bandeirolas." width="800" height="820" fetchpriority="high">
       </div>
-      <figcaption>Do imaginário do Sertão para o tecido: cada estampa é uma narrativa.</figcaption>
+      <figcaption>Fé na Festa: os três santos juninos em altares desenhados como xilogravura.</figcaption>
     </figure>
   </div>
 </section>
@@ -803,18 +777,9 @@ a:hover{color:var(--terracota-escura)}
     <p class="intro-secao">Cada coleção reúne estampas inspiradas no Nordeste que compartilham um mesmo universo — das fogueiras de junho aos mistérios do Sertão. Escolha por onde começar a viagem.</p>
 
     <div class="grade-colecoes">
-      <!-- IMAGENS REAIS SUGERIDAS para os cards: foto da camiseta mais representativa de cada
-           coleção, fundo limpo, formato 4:3, WebP/AVIF, loading="lazy", width/height definidos. -->
       <a class="card-colecao revelar" href="https://atelie.sertaoprofundo.com/ateliesertaoprofundo/collections/forro-no-sertao">
-        <div class="vitrine" style="background:#E9A63B" role="img" aria-label="Bandeirolas e fogueira de festa junina, tema da coleção São João no Sertão">
-          <svg viewBox="0 0 120 100" aria-hidden="true">
-            <path d="M4 10h112" stroke="#2A1B12" stroke-width="3" stroke-linecap="round"/>
-            <path fill="#A8431A" d="M12 12l10 14 10-14z"/><path fill="#1E3A5F" d="M38 12l10 14 10-14z"/>
-            <path fill="#3F6B4F" d="M64 12l10 14 10-14z"/><path fill="#7E3213" d="M90 12l10 14 10-14z"/>
-            <path d="M60 44c-10 10-16 18-16 28a16 16 0 0 0 32 0c0-10-6-18-16-28Z" fill="#A8431A"/>
-            <path d="M60 58c-5 6-8 10-8 15a8 8 0 0 0 16 0c0-5-3-9-8-15Z" fill="#E9A63B" stroke="#7E3213" stroke-width="2"/>
-            <path d="M34 92h52" stroke="#2A1B12" stroke-width="4" stroke-linecap="round"/>
-          </svg>
+        <div class="vitrine">
+          <img src="img/colecao-sao-joao.webp" alt="Camiseta preta com estampa de São João segurando um cordeiro em altar junino, entre mandacarus, sol e pássaros." width="585" height="600" loading="lazy">
         </div>
         <div class="corpo">
           <h3>São João no Sertão</h3>
@@ -824,18 +789,8 @@ a:hover{color:var(--terracota-escura)}
       </a>
 
       <a class="card-colecao revelar" href="https://atelie.sertaoprofundo.com/ateliesertaoprofundo/collections/musica-e-tradicao">
-        <div class="vitrine" style="background:#1E3A5F" role="img" aria-label="Sanfona estilizada, tema da coleção Música e Tradição">
-          <svg viewBox="0 0 120 100" aria-hidden="true">
-            <rect x="14" y="26" width="18" height="48" rx="4" fill="#E9A63B"/>
-            <rect x="88" y="26" width="18" height="48" rx="4" fill="#E9A63B"/>
-            <g stroke="#F6EFE2" stroke-width="4" stroke-linecap="round">
-              <path d="M38 30v40M50 26v48M62 26v48M74 30v40"/>
-            </g>
-            <g fill="#A8431A"><circle cx="23" cy="38" r="3"/><circle cx="23" cy="50" r="3"/><circle cx="23" cy="62" r="3"/></g>
-            <g fill="#A8431A"><circle cx="97" cy="38" r="3"/><circle cx="97" cy="50" r="3"/><circle cx="97" cy="62" r="3"/></g>
-            <path d="m30 14 4 6M90 14l-4 6" stroke="#E9A63B" stroke-width="3" stroke-linecap="round"/>
-            <g fill="#F6EFE2"><path d="M52 84c0 4 8 4 8 0v-4h-8ZM68 88c0 4 8 4 8 0v-4h-8Z"/><path d="M56 80h20v-6c-8-2-14-2-20 0Z" opacity=".9"/></g>
-          </svg>
+        <div class="vitrine">
+          <img src="img/colecao-musica-tradicao.webp" alt="Camiseta preta com estampa de zabumba colorida e letreiro Zabumba desenhado à mão." width="585" height="600" loading="lazy">
         </div>
         <div class="corpo">
           <h3>Música e Tradição</h3>
@@ -845,16 +800,8 @@ a:hover{color:var(--terracota-escura)}
       </a>
 
       <a class="card-colecao revelar" href="https://atelie.sertaoprofundo.com/ateliesertaoprofundo/collections/cactos-e-poesia">
-        <div class="vitrine" style="background:#3F6B4F" role="img" aria-label="Mandacaru florido sob estrelas, tema da coleção Cactos e Poesia">
-          <svg viewBox="0 0 120 100" aria-hidden="true">
-            <path d="M52 92V38c0-12 16-12 16 0v22c0 5 8 5 8 0V26c0-12 16-12 16 0v34c0 16-12 22-22 22h-2v10Z" fill="#7FA98C" transform="translate(-16 0)"/>
-            <circle cx="44" cy="30" r="7" fill="#E9A63B"/>
-            <g fill="#F6EFE2">
-              <path d="m92 22 4 8 8 4-8 4-4 8-4-8-8-4 8-4Z"/>
-              <circle cx="104" cy="58" r="3"/><circle cx="86" cy="70" r="2.5"/><circle cx="20" cy="16" r="2.5"/>
-            </g>
-            <path d="M16 92h88" stroke="#F6EFE2" stroke-width="3" stroke-linecap="round"/>
-          </svg>
+        <div class="vitrine">
+          <img src="img/colecao-cactos-poesia.webp" alt="Camiseta azul-marinho com estampa de cacto com flor laranja sobre pincelada azul." width="585" height="600" loading="lazy">
         </div>
         <div class="corpo">
           <h3>Cactos e Poesia</h3>
@@ -864,16 +811,8 @@ a:hover{color:var(--terracota-escura)}
       </a>
 
       <a class="card-colecao revelar" href="https://atelie.sertaoprofundo.com/ateliesertaoprofundo/collections/arte-e-misticismo">
-        <div class="vitrine" style="background:#7E3213" role="img" aria-label="Lua, olho místico e estrelas, tema da coleção Arte e Misticismo">
-          <svg viewBox="0 0 120 100" aria-hidden="true">
-            <path d="M74 20a28 28 0 1 0 22 44 32 32 0 0 1-22-44Z" fill="#E9A63B"/>
-            <g fill="#F6EFE2">
-              <path d="m30 18 4 8 8 4-8 4-4 8-4-8-8-4 8-4Z"/>
-              <circle cx="24" cy="62" r="3"/><circle cx="42" cy="78" r="2.5"/><circle cx="102" cy="18" r="2.5"/>
-            </g>
-            <path d="M38 46c8-8 22-8 30 0-8 8-22 8-30 0Z" fill="#F6EFE2" transform="translate(-6 28)"/>
-            <circle cx="47" cy="74" r="5" fill="#1E3A5F"/>
-          </svg>
+        <div class="vitrine">
+          <img src="img/colecao-arte-misticismo.webp" alt="Camiseta preta com estampa ornamental simétrica em amarelo, azul e vermelho, de inspiração mística." width="585" height="600" loading="lazy">
         </div>
         <div class="corpo">
           <h3>Arte e Misticismo</h3>
@@ -883,17 +822,8 @@ a:hover{color:var(--terracota-escura)}
       </a>
 
       <a class="card-colecao revelar" href="https://atelie.sertaoprofundo.com/ateliesertaoprofundo/collections/presentes-do-sertao">
-        <div class="vitrine" style="background:#A8431A" role="img" aria-label="Estandarte e confetes de carnaval, tema da coleção Carnaval do Sertão">
-          <svg viewBox="0 0 120 100" aria-hidden="true">
-            <path d="M60 14v72" stroke="#2A1B12" stroke-width="4" stroke-linecap="round"/>
-            <path d="M60 18h34l-8 12 8 12H60Z" fill="#E9A63B"/>
-            <path d="M60 18H26l8 12-8 12h34Z" fill="#1E3A5F"/>
-            <g fill="#F6EFE2">
-              <circle cx="28" cy="66" r="3"/><circle cx="92" cy="60" r="3"/><circle cx="40" cy="84" r="2.5"/>
-              <circle cx="82" cy="82" r="2.5"/><circle cx="104" cy="76" r="2"/><circle cx="16" cy="48" r="2"/>
-            </g>
-            <path d="M60 30h24M60 30H36" stroke="#F6EFE2" stroke-width="2" opacity=".7"/>
-          </svg>
+        <div class="vitrine">
+          <img src="img/colecao-carnaval.webp" alt="Camiseta verde com estampa da La Ursa, personagem mascarado do carnaval de rua nordestino." width="585" height="600" loading="lazy">
         </div>
         <div class="corpo">
           <h3>Carnaval do Sertão</h3>
@@ -912,19 +842,11 @@ a:hover{color:var(--terracota-escura)}
     <h2 id="titulo-produtos">Camisetas do Sertão para começar a viagem</h2>
     <p class="intro-secao">Uma amostra do catálogo: camisetas de algodão 30.1 penteado, com estampas autorais e tabelas de medidas nas versões masculina e feminina.</p>
 
-    <!-- IMAGENS REAIS SUGERIDAS: para cada card, a foto oficial do produto na loja
-         (mockup da camiseta com a estampa), formato quadrado 1:1, WebP/AVIF,
-         loading="lazy", width="600" height="600". Alt sugeridos no README de entrega. -->
     <div class="grade-produtos">
 
       <article class="card-produto revelar">
-        <div class="estampa" style="background:#E9A63B" role="img" aria-label="Estampa da camiseta Fé na Festa, com bandeirolas e estrela junina">
-          <svg viewBox="0 0 100 100" aria-hidden="true">
-            <path d="M6 14h88" stroke="#2A1B12" stroke-width="3" stroke-linecap="round"/>
-            <path fill="#A8431A" d="M14 16l8 11 8-11z"/><path fill="#1E3A5F" d="M40 16l8 11 8-11z"/><path fill="#3F6B4F" d="M66 16l8 11 8-11z"/>
-            <path d="m50 42 6 12 13 2-9 9 2 13-12-6-12 6 2-13-9-9 13-2Z" fill="#7E3213"/>
-            <path d="M22 88h56" stroke="#2A1B12" stroke-width="3" stroke-linecap="round"/>
-          </svg>
+        <div class="estampa">
+          <img src="img/fe-na-festa.webp" alt="Camiseta preta com a estampa Fé na Festa: os santos juninos Santo Antônio, São João e São Pedro em altares." width="585" height="600" loading="lazy">
           <span class="tag-categoria">Camiseta</span>
         </div>
         <div class="corpo">
@@ -937,13 +859,8 @@ a:hover{color:var(--terracota-escura)}
       </article>
 
       <article class="card-produto revelar">
-        <div class="estampa" style="background:#1E3A5F" role="img" aria-label="Estampa da camiseta O Voo do Carcará, com pássaro sobre o sol">
-          <svg viewBox="0 0 100 100" aria-hidden="true">
-            <circle cx="50" cy="62" r="24" fill="#E9A63B"/>
-            <path d="M50 30c-6-10-20-14-30-8 8 2 12 6 14 12 6-4 12-4 16-4Zm0 0c6-10 20-14 30-8-8 2-12 6-14 12-6-4-12-4-16-4Z" fill="#F6EFE2"/>
-            <path d="M50 30c0 6-2 12-6 16m6-16c0 6 2 12 6 16" stroke="#F6EFE2" stroke-width="3" stroke-linecap="round" fill="none"/>
-            <path d="M18 88h64" stroke="#F6EFE2" stroke-width="3" stroke-linecap="round"/>
-          </svg>
+        <div class="estampa">
+          <img src="img/o-voo-do-carcara.webp" alt="Camiseta branca com estampa em estilo xilogravura de um carcará em voo e os dizeres Pega, Mata e Come." width="585" height="600" loading="lazy">
           <span class="tag-categoria">Camiseta</span>
         </div>
         <div class="corpo">
@@ -956,13 +873,8 @@ a:hover{color:var(--terracota-escura)}
       </article>
 
       <article class="card-produto revelar">
-        <div class="estampa" style="background:#C77B4A" role="img" aria-label="Estampa da camiseta Cacto em Terracota, com mandacaru em vaso">
-          <svg viewBox="0 0 100 100" aria-hidden="true">
-            <path d="M44 64V34c0-10 12-10 12 0v12c0 4 7 4 7 0V30c0-10 12-10 12-0v16c0 12-9 17-16 17h-3v1Z" fill="#3F6B4F" transform="translate(-8 0)"/>
-            <path d="M32 66h36l-4 22H36Z" fill="#7E3213"/>
-            <path d="M30 62h40v6H30Z" fill="#2A1B12"/>
-            <circle cx="40" cy="28" r="5" fill="#E9A63B"/>
-          </svg>
+        <div class="estampa">
+          <img src="img/cacto-em-terracota.webp" alt="Camiseta branca com estampa de palma florida em vaso de terracota sobre céu azul." width="585" height="600" loading="lazy">
           <span class="tag-categoria">Camiseta</span>
         </div>
         <div class="corpo">
@@ -975,14 +887,8 @@ a:hover{color:var(--terracota-escura)}
       </article>
 
       <article class="card-produto revelar">
-        <div class="estampa" style="background:#3F6B4F" role="img" aria-label="Estampa da camiseta Céu e Chão, com sol e lua sobre o horizonte">
-          <svg viewBox="0 0 100 100" aria-hidden="true">
-            <circle cx="34" cy="36" r="14" fill="#E9A63B"/>
-            <path d="M76 24a13 13 0 1 0 10 21 15 15 0 0 1-10-21Z" fill="#F6EFE2"/>
-            <path d="M12 70c14-6 26-9 38-9s24 3 38 9" stroke="#F6EFE2" stroke-width="3" fill="none" stroke-linecap="round"/>
-            <path d="M20 84c10-4 20-6 30-6s20 2 30 6" stroke="#E9A63B" stroke-width="3" fill="none" stroke-linecap="round"/>
-            <circle cx="62" cy="56" r="2" fill="#F6EFE2"/><circle cx="18" cy="54" r="2" fill="#F6EFE2"/>
-          </svg>
+        <div class="estampa">
+          <img src="img/ceu-e-chao.webp" alt="Camiseta branca com estampa de pássaro de cabeça vermelha pousado em muro de barro, ao lado de uma agave." width="585" height="600" loading="lazy">
           <span class="tag-categoria">Camiseta</span>
         </div>
         <div class="corpo">
@@ -995,13 +901,8 @@ a:hover{color:var(--terracota-escura)}
       </article>
 
       <article class="card-produto revelar">
-        <div class="estampa" style="background:#7E3213" role="img" aria-label="Estampa da camiseta Guardião do Maracatu, com coroa e estrelas">
-          <svg viewBox="0 0 100 100" aria-hidden="true">
-            <path d="M24 64V38l14 12 12-20 12 20 14-12v26Z" fill="#E9A63B"/>
-            <path d="M24 64h52v10H24Z" fill="#1E3A5F"/>
-            <circle cx="38" cy="52" r="3" fill="#A8431A"/><circle cx="50" cy="48" r="3" fill="#A8431A"/><circle cx="62" cy="52" r="3" fill="#A8431A"/>
-            <g fill="#F6EFE2"><circle cx="20" cy="26" r="2.5"/><circle cx="80" cy="24" r="2.5"/><path d="m50 12 3 6 6 3-6 3-3 6-3-6-6-3 6-3Z"/></g>
-          </svg>
+        <div class="estampa">
+          <img src="img/guardiao-do-maracatu.webp" alt="Camiseta verde com estampa de caboclo de lança do maracatu visto de costas, com as partes da indumentária nomeadas." width="585" height="600" loading="lazy">
           <span class="tag-categoria">Camiseta</span>
         </div>
         <div class="corpo">
@@ -1014,16 +915,8 @@ a:hover{color:var(--terracota-escura)}
       </article>
 
       <article class="card-produto revelar">
-        <div class="estampa" style="background:#2A1B12" role="img" aria-label="Estampa da camiseta Coroa do Cangaceiro, com chapéu de couro estrelado">
-          <svg viewBox="0 0 100 100" aria-hidden="true">
-            <path d="M50 22c-18 0-30 12-32 30 10-8 20-12 32-12s22 4 32 12c-2-18-14-30-32-30Z" fill="#C77B4A"/>
-            <path d="M30 46h40v14a20 8 0 0 1-40 0Z" fill="#A8431A"/>
-            <g fill="#E9A63B">
-              <path d="m50 30 2.5 5 5 2.5-5 2.5-2.5 5-2.5-5-5-2.5 5-2.5Z"/>
-              <circle cx="38" cy="54" r="2.5"/><circle cx="50" cy="57" r="2.5"/><circle cx="62" cy="54" r="2.5"/>
-            </g>
-            <path d="M22 84h56" stroke="#E9A63B" stroke-width="3" stroke-linecap="round"/>
-          </svg>
+        <div class="estampa">
+          <img src="img/coroa-do-cangaceiro.webp" alt="Camiseta preta com estampa de chapéu de couro de cangaceiro iluminado sobre fundo verde místico." width="585" height="600" loading="lazy">
           <span class="tag-categoria">Camiseta</span>
         </div>
         <div class="corpo">
@@ -1036,15 +929,8 @@ a:hover{color:var(--terracota-escura)}
       </article>
 
       <article class="card-produto revelar">
-        <div class="estampa" style="background:#E9A63B" role="img" aria-label="Estampa da camiseta Trio de Forró, com sanfona, triângulo e zabumba">
-          <svg viewBox="0 0 100 100" aria-hidden="true">
-            <rect x="10" y="34" width="10" height="30" rx="3" fill="#A8431A"/>
-            <rect x="34" y="34" width="10" height="30" rx="3" fill="#A8431A"/>
-            <g stroke="#7E3213" stroke-width="3" stroke-linecap="round"><path d="M24 38v22M29 36v26"/></g>
-            <path d="m62 34 12 24H50Z" fill="none" stroke="#1E3A5F" stroke-width="4" stroke-linejoin="round"/>
-            <circle cx="84" cy="62" r="12" fill="#7E3213"/><circle cx="84" cy="62" r="7" fill="#F6EFE2"/>
-            <path d="M14 82h72" stroke="#7E3213" stroke-width="3" stroke-linecap="round"/>
-          </svg>
+        <div class="estampa">
+          <img src="img/trio-de-forro.webp" alt="Camiseta azul-marinho com estampa de zabumba, sanfona e triângulo, o trio do forró." width="585" height="600" loading="lazy">
           <span class="tag-categoria">Camiseta</span>
         </div>
         <div class="corpo">
@@ -1057,15 +943,8 @@ a:hover{color:var(--terracota-escura)}
       </article>
 
       <article class="card-produto revelar">
-        <div class="estampa" style="background:#1E3A5F" role="img" aria-label="Estampa da camiseta Pé de Bode, com sanfona de oito baixos">
-          <svg viewBox="0 0 100 100" aria-hidden="true">
-            <rect x="18" y="28" width="16" height="44" rx="4" fill="#E9A63B"/>
-            <rect x="66" y="28" width="16" height="44" rx="4" fill="#E9A63B"/>
-            <g stroke="#F6EFE2" stroke-width="3.5" stroke-linecap="round"><path d="M40 32v36M50 28v44M60 32v36"/></g>
-            <g fill="#A8431A"><circle cx="26" cy="38" r="2.5"/><circle cx="26" cy="48" r="2.5"/><circle cx="26" cy="58" r="2.5"/><circle cx="26" cy="66" r="2.5"/></g>
-            <g fill="#A8431A"><circle cx="74" cy="38" r="2.5"/><circle cx="74" cy="48" r="2.5"/><circle cx="74" cy="58" r="2.5"/><circle cx="74" cy="66" r="2.5"/></g>
-            <path d="M30 86h40" stroke="#E9A63B" stroke-width="3" stroke-linecap="round"/>
-          </svg>
+        <div class="estampa">
+          <img src="img/pe-de-bode.webp" alt="Camiseta branca com estampa de sanfona de oito baixos em azul e laranja." width="585" height="600" loading="lazy">
           <span class="tag-categoria">Camiseta</span>
         </div>
         <div class="corpo">

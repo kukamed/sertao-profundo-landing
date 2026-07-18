@@ -22,9 +22,9 @@ https://atelie.sertaoprofundo.com em 18/07/2026.
 - **Principal:** camisetas com estampas nordestinas (H1 implícito + lead do hero + FAQ)
 - **Secundárias presentes no texto:** camisetas nordestinas autorais (title), camisetas autorais (H1), roupas com temática nordestina (manifesto), camisetas do Sertão (H2 de produtos), estampas inspiradas no Nordeste (coleções), moda nordestina autoral (H2 de benefícios), camisetas de São João / forró (coleções e FAQ), presente nordestino criativo (seção presentes), vestuário autoral do Nordeste (sobretítulo do hero), loja em Campina Grande (manifesto, rodapé, FAQ, dados estruturados).
 
-## 4. Imagens reais a inserir (substituindo as ilustrações SVG temporárias)
+## 4. Imagens reais — IMPLEMENTADO em 18/07/2026
 
-Todas em WebP ou AVIF, com `width`/`height` definidos. `loading="lazy"` em tudo, **exceto** a imagem do hero (usar `fetchpriority="high"`).
+As fotos oficiais dos produtos foram baixadas da loja, otimizadas (WebP, 585×600 para cards e 800×820 para o hero, 12–61 KB cada) e salvas em `img/`. Hero sem lazy loading e com `fetchpriority="high"`; demais imagens com `loading="lazy"` e `width`/`height` definidos. Alt texts descritivos escritos a partir da conferência visual de cada estampa. A tabela abaixo fica como referência do plano original:
 
 | Local | Imagem sugerida | Dimensão | Alt text sugerido |
 |---|---|---|---|
@@ -63,8 +63,8 @@ Todas em WebP ou AVIF, com `width`/`height` definidos. `loading="lazy"` em tudo,
 ## 7. Informações que precisam ser confirmadas pelo responsável da marca
 
 1. **URL definitiva da landing page** (para canonical, og:url e JSON-LD).
-2. **Imagem social (og:image)** — precisa ser criada em 1200×630 px.
-3. **Fotos oficiais** dos produtos/coleções para substituir as ilustrações temporárias (ver tabela acima) e autorização de uso.
+2. **Imagem social (og:image)** — hoje usa a foto real do produto Fé na Festa (800×820); recomenda-se criar uma arte dedicada em 1200×630 px para melhor recorte nas redes.
+3. ~~Fotos oficiais~~ — concluído: fotos reais da loja implementadas em 18/07/2026 (hero, 5 coleções e 8 produtos). As seções "manifesto" e "presentes" mantêm ilustrações decorativas próprias; se desejarem, podem receber fotos de bastidores/close das estampas.
 4. **Slug da coleção "Carnaval do Sertão"** — o menu do site aponta para `/collections/presentes-do-sertao`; confirmar se é esse mesmo o destino correto.
 5. **E-mail de atendimento** — o site menciona suporte por e-mail, mas o endereço não está publicado; se houver, incluir no rodapé.
 6. **CNPJ** — o site exibe "CNPJ 06089920460" (11 dígitos, formato de CPF). Confirmar o número correto antes de exibi-lo na landing; por isso foi omitido.
