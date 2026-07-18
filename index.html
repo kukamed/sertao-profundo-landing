@@ -1,0 +1,1385 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- ===================== SEO ===================== -->
+<title>Camisetas Nordestinas Autorais | Ateliê Sertão Profundo</title>
+<meta name="description" content="Camisetas com estampas nordestinas autorais, inspiradas na arte, na música e na poesia do Sertão. Parcele em até 6x e receba em todo o Brasil.">
+<!-- AJUSTAR: se esta landing for publicada em outra URL, atualize o canonical e as og:url abaixo -->
+<link rel="canonical" href="https://atelie.sertaoprofundo.com/">
+<meta name="theme-color" content="#A8431A">
+
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Ateliê Sertão Profundo">
+<meta property="og:title" content="Camisetas Nordestinas Autorais | Ateliê Sertão Profundo">
+<meta property="og:description" content="Camisetas com estampas nordestinas autorais, inspiradas na arte, na música e na poesia do Sertão. Parcele em até 6x e receba em todo o Brasil.">
+<!-- AJUSTAR: usar imagem real da marca em 1200x630px (proporção 1.91:1), formato JPG ou PNG -->
+<meta property="og:image" content="https://atelie.sertaoprofundo.com/og-image.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:url" content="https://atelie.sertaoprofundo.com/">
+<meta property="og:locale" content="pt_BR">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Camisetas Nordestinas Autorais | Ateliê Sertão Profundo">
+<meta name="twitter:description" content="Camisetas com estampas nordestinas autorais, inspiradas na arte, na música e na poesia do Sertão. Parcele em até 6x e receba em todo o Brasil.">
+<meta name="twitter:image" content="https://atelie.sertaoprofundo.com/og-image.jpg">
+
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='9' fill='%23E9A63B'/%3E%3Cg stroke='%23A8431A' stroke-width='2.4' stroke-linecap='round'%3E%3Cpath d='M16 1v4M16 27v4M1 16h4M27 16h4M5.4 5.4l2.8 2.8M23.8 23.8l2.8 2.8M26.6 5.4l-2.8 2.8M8.2 23.8l-2.8 2.8'/%3E%3C/g%3E%3C/svg%3E">
+
+<!-- Fontes: título editorial + corpo em fonte de sistema (recomendado self-host em produção) -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&display=swap">
+
+<style>
+/* ============ Variáveis e base ============ */
+:root{
+  --terracota:#A8431A;
+  --terracota-escura:#7E3213;
+  --areia:#F6EFE2;
+  --areia-media:#EFE3CC;
+  --areia-escura:#E3D2B2;
+  --azul:#1E3A5F;
+  --azul-escuro:#152B48;
+  --verde:#3F6B4F;
+  --amarelo:#E9A63B;
+  --tinta:#2A1B12;
+  --tinta-suave:#5A4638;
+  --branco:#FFFDF8;
+  --raio:14px;
+  --sombra:0 10px 30px rgba(42,27,18,.10);
+  --fonte-titulo:"Fraunces",Georgia,"Times New Roman",serif;
+  --fonte-texto:system-ui,-apple-system,"Segoe UI",Roboto,Ubuntu,sans-serif;
+}
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth}
+[id]{scroll-margin-top:90px}
+body{
+  margin:0;
+  font-family:var(--fonte-texto);
+  font-size:1.0625rem;
+  line-height:1.65;
+  color:var(--tinta);
+  background:var(--areia);
+  -webkit-font-smoothing:antialiased;
+}
+/* textura sutil de papel */
+body::before{
+  content:"";position:fixed;inset:0;pointer-events:none;z-index:0;opacity:.05;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Cfilter id='p'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2'/%3E%3C/filter%3E%3Crect width='140' height='140' filter='url(%23p)'/%3E%3C/svg%3E");
+}
+h1,h2,h3{font-family:var(--fonte-titulo);line-height:1.15;color:var(--tinta);text-wrap:balance;margin:0 0 .5em}
+h1{font-size:clamp(2.1rem,5.5vw,3.6rem);font-weight:700}
+h2{font-size:clamp(1.7rem,4vw,2.5rem);font-weight:600}
+h3{font-size:1.25rem;font-weight:600}
+p{margin:0 0 1em}
+img,svg{max-width:100%;height:auto;display:block}
+a{color:var(--terracota)}
+a:hover{color:var(--terracota-escura)}
+:focus-visible{outline:3px solid var(--azul);outline-offset:3px;border-radius:4px}
+.container{width:min(1160px,92%);margin-inline:auto;position:relative;z-index:1}
+.secao{padding-block:clamp(3.5rem,8vw,6rem)}
+.sobretitulo{
+  display:inline-block;font-size:.8rem;font-weight:700;letter-spacing:.14em;
+  text-transform:uppercase;color:var(--terracota);margin-bottom:.9rem;
+}
+.intro-secao{max-width:46rem;color:var(--tinta-suave);font-size:1.1rem}
+.pular-conteudo{
+  position:absolute;left:-999px;top:0;background:var(--azul);color:#fff;
+  padding:.7rem 1.2rem;z-index:100;border-radius:0 0 8px 0;text-decoration:none;
+}
+.pular-conteudo:focus{left:0;color:#fff}
+
+/* ============ Botões ============ */
+.btn{
+  display:inline-flex;align-items:center;justify-content:center;gap:.5rem;
+  padding:.95rem 1.8rem;border-radius:999px;font-weight:700;font-size:1rem;
+  text-decoration:none;border:2px solid transparent;cursor:pointer;
+  transition:transform .18s ease,background-color .18s ease,color .18s ease;
+}
+.btn:hover{transform:translateY(-2px)}
+.btn-primario{background:var(--terracota);color:#fff}
+.btn-primario:hover{background:var(--terracota-escura);color:#fff}
+.btn-secundario{background:transparent;color:var(--tinta);border-color:var(--tinta)}
+.btn-secundario:hover{background:var(--tinta);color:var(--areia)}
+.btn-claro{background:var(--amarelo);color:var(--tinta)}
+.btn-claro:hover{background:#f0b654;color:var(--tinta)}
+
+/* ============ 1. Barra de benefícios ============ */
+.barra-beneficios{background:var(--azul);color:#fff;font-size:.85rem;position:relative;z-index:5}
+.barra-beneficios ul{
+  margin:0;padding:.55rem 0;list-style:none;display:flex;flex-wrap:wrap;
+  justify-content:center;gap:.4rem 2rem;
+}
+.barra-beneficios li{display:flex;align-items:center;gap:.45rem;white-space:nowrap}
+.barra-beneficios svg{width:15px;height:15px;flex:none}
+@media (max-width:820px){.barra-beneficios li:nth-child(n+4){display:none}}
+@media (max-width:560px){.barra-beneficios li:nth-child(n+3){display:none}}
+
+/* ============ 2. Cabeçalho ============ */
+.cabecalho{
+  position:sticky;top:0;z-index:50;background:rgba(246,239,226,.94);
+  backdrop-filter:blur(8px);border-bottom:1px solid var(--areia-escura);
+}
+.cabecalho-inner{display:flex;align-items:center;gap:1.5rem;padding-block:.7rem}
+.logo{display:flex;align-items:center;gap:.6rem;text-decoration:none;color:var(--tinta);flex:none}
+.logo svg{width:38px;height:38px}
+.logo strong{font-family:var(--fonte-titulo);font-size:1.15rem;line-height:1.1;font-weight:700}
+.logo small{display:block;font-size:.68rem;letter-spacing:.22em;text-transform:uppercase;color:var(--terracota);font-weight:700}
+.nav-principal{margin-left:auto}
+.nav-principal ul{margin:0;padding:0;list-style:none;display:flex;gap:1.6rem;align-items:center}
+.nav-principal a{color:var(--tinta);text-decoration:none;font-weight:600;font-size:.95rem}
+.nav-principal a:hover{color:var(--terracota)}
+.acoes-cabecalho{display:flex;align-items:center;gap:.9rem}
+.icone-carrinho{display:inline-flex;padding:.45rem;border-radius:50%;color:var(--tinta)}
+.icone-carrinho:hover{background:var(--areia-media);color:var(--terracota)}
+.icone-carrinho svg{width:23px;height:23px}
+.btn-cabecalho{padding:.6rem 1.2rem;font-size:.9rem}
+.btn-menu{
+  display:none;background:none;border:0;padding:.5rem;cursor:pointer;color:var(--tinta);
+  margin-left:auto;
+}
+.btn-menu svg{width:26px;height:26px}
+@media (max-width:900px){
+  .btn-menu{display:inline-flex}
+  .nav-principal{
+    display:none;position:absolute;top:100%;left:0;right:0;background:var(--areia);
+    border-bottom:1px solid var(--areia-escura);box-shadow:var(--sombra);margin-left:0;
+  }
+  .nav-principal.aberto{display:block}
+  .nav-principal ul{flex-direction:column;align-items:stretch;gap:0;padding:.5rem 0}
+  .nav-principal a{display:block;padding:.85rem 5%}
+  .btn-cabecalho{display:none}
+  .nav-principal .so-mobile{display:block}
+}
+.nav-principal .so-mobile{display:none}
+@media (max-width:900px){.nav-principal .so-mobile{display:block;padding:.85rem 5%}}
+
+/* ============ 3. Hero ============ */
+.hero{overflow:hidden;position:relative}
+.hero-grid{
+  display:grid;grid-template-columns:1.05fr .95fr;gap:3rem;align-items:center;
+  padding-block:clamp(3rem,7vw,5.5rem);
+}
+.hero-texto p.lead{font-size:clamp(1.05rem,2vw,1.25rem);color:var(--tinta-suave);max-width:34rem}
+.hero-ctas{display:flex;flex-wrap:wrap;gap:.9rem;margin-top:1.8rem}
+.hero-selo{margin-top:2rem;display:flex;gap:.6rem;align-items:center;color:var(--tinta-suave);font-size:.9rem}
+.hero-selo svg{width:18px;height:18px;flex:none;color:var(--verde)}
+.hero-visual{position:relative}
+.hero-visual .moldura{
+  border-radius:var(--raio);overflow:hidden;box-shadow:var(--sombra);
+  border:6px solid var(--branco);transform:rotate(1.5deg);
+}
+.hero-visual figcaption{
+  margin-top:.9rem;font-size:.85rem;color:var(--tinta-suave);text-align:center;font-style:italic;
+}
+@media (max-width:900px){
+  .hero-grid{grid-template-columns:1fr;gap:2.2rem}
+  .hero-visual .moldura{transform:none}
+}
+
+/* bandeirolas divisórias */
+.bandeirolas{display:block;width:100%;height:26px;color:var(--terracota)}
+
+/* ============ 4. Manifesto ============ */
+.manifesto{background:var(--azul);color:#F2E9D8}
+.manifesto h2{color:#fff}
+.manifesto .container{display:grid;grid-template-columns:1.1fr .9fr;gap:3.5rem;align-items:center}
+.manifesto p{color:#D8CDB9}
+.citacao{
+  border-left:4px solid var(--amarelo);padding:.4rem 0 .4rem 1.4rem;margin:2rem 0 0;
+  font-family:var(--fonte-titulo);font-size:clamp(1.2rem,2.4vw,1.5rem);line-height:1.4;
+  color:#fff;font-style:italic;
+}
+.citacao footer{font-family:var(--fonte-texto);font-size:.85rem;font-style:normal;color:var(--amarelo);margin-top:.7rem}
+.manifesto-arte{display:flex;justify-content:center}
+.manifesto-arte svg{width:min(340px,80%)}
+@media (max-width:900px){.manifesto .container{grid-template-columns:1fr;gap:2rem}}
+
+/* ============ 5. Coleções ============ */
+.grade-colecoes{
+  display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));
+  gap:1.3rem;margin-top:2.5rem;
+}
+.card-colecao{
+  position:relative;border-radius:var(--raio);overflow:hidden;background:var(--branco);
+  box-shadow:var(--sombra);text-decoration:none;color:var(--tinta);
+  display:flex;flex-direction:column;transition:transform .2s ease;
+}
+.card-colecao:hover{transform:translateY(-5px);color:var(--tinta)}
+.card-colecao .vitrine{aspect-ratio:4/3;display:grid;place-items:center;position:relative}
+.card-colecao .vitrine svg{width:56%;max-height:78%}
+.card-colecao .corpo{padding:1.1rem 1.2rem 1.3rem}
+.card-colecao h3{margin-bottom:.35rem;font-size:1.15rem}
+.card-colecao p{font-size:.9rem;color:var(--tinta-suave);margin:0 0 .6rem}
+.card-colecao .falso-link{font-weight:700;font-size:.9rem;color:var(--terracota)}
+.card-colecao:hover .falso-link{text-decoration:underline}
+
+/* ============ 6. Produtos ============ */
+.produtos{background:var(--branco)}
+.grade-produtos{
+  display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));
+  gap:1.5rem;margin-top:2.5rem;
+}
+.card-produto{
+  background:var(--areia);border-radius:var(--raio);overflow:hidden;
+  display:flex;flex-direction:column;box-shadow:var(--sombra);
+  transition:transform .2s ease;
+}
+.card-produto:hover{transform:translateY(-5px)}
+.card-produto .estampa{aspect-ratio:1/1;display:grid;place-items:center;position:relative}
+.card-produto .estampa svg{width:52%;max-height:70%}
+.tag-categoria{
+  position:absolute;top:.8rem;left:.8rem;background:rgba(255,253,248,.92);
+  font-size:.72rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;
+  padding:.28rem .7rem;border-radius:999px;color:var(--tinta-suave);
+}
+.card-produto .corpo{padding:1.1rem 1.2rem 1.4rem;display:flex;flex-direction:column;flex:1}
+.card-produto h3{font-size:1.15rem;margin-bottom:.4rem}
+.preco{font-size:1.25rem;font-weight:800;color:var(--tinta);font-family:var(--fonte-texto)}
+.preco-pix{font-size:.9rem;color:var(--verde);font-weight:700;margin:.1rem 0 0}
+.parcelas{font-size:.83rem;color:var(--tinta-suave);margin:.15rem 0 1rem}
+.card-produto .btn{margin-top:auto;padding:.7rem 1rem;font-size:.92rem}
+.aviso-precos{font-size:.83rem;color:var(--tinta-suave);margin-top:1.6rem;text-align:center}
+
+/* ============ 7. Benefícios ============ */
+.grade-beneficios{
+  display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));
+  gap:1.3rem;margin-top:2.5rem;
+}
+.item-beneficio{
+  background:var(--branco);border-radius:var(--raio);padding:1.5rem;box-shadow:var(--sombra);
+}
+.item-beneficio .icone{
+  width:46px;height:46px;border-radius:12px;display:grid;place-items:center;
+  background:var(--areia-media);color:var(--terracota);margin-bottom:1rem;
+}
+.item-beneficio .icone svg{width:24px;height:24px}
+.item-beneficio h3{font-size:1.05rem;margin-bottom:.3rem}
+.item-beneficio p{font-size:.9rem;color:var(--tinta-suave);margin:0}
+
+/* ============ 8. Editorial / processo ============ */
+.processo{background:var(--verde);color:#EAF0E5}
+.processo h2{color:#fff}
+.processo .intro-secao{color:#CBDCC4}
+.passos{
+  counter-reset:passo;display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));
+  gap:1.3rem;margin-top:2.5rem;
+}
+.passo{
+  background:rgba(255,253,248,.07);border:1px solid rgba(255,253,248,.18);
+  border-radius:var(--raio);padding:1.6rem 1.4rem;
+}
+.passo::before{
+  counter-increment:passo;content:counter(passo,decimal-leading-zero);
+  font-family:var(--fonte-titulo);font-size:2rem;font-weight:700;color:var(--amarelo);
+  display:block;margin-bottom:.6rem;
+}
+.passo h3{color:#fff;font-size:1.1rem;margin-bottom:.35rem}
+.passo p{font-size:.92rem;color:#D5E2CE;margin:0}
+
+/* ============ 9. Prova social ============ */
+.prova-social .painel{
+  background:var(--branco);border-radius:var(--raio);box-shadow:var(--sombra);
+  padding:clamp(1.8rem,4vw,3rem);display:grid;grid-template-columns:1.1fr .9fr;
+  gap:2.5rem;align-items:center;margin-top:2.5rem;
+}
+.prova-social .estrelas{color:var(--amarelo);display:flex;gap:.2rem;margin-bottom:1rem}
+.prova-social .estrelas svg{width:22px;height:22px}
+.modelo-avaliacao{
+  border:2px dashed var(--areia-escura);border-radius:var(--raio);padding:1.5rem;
+  font-size:.9rem;color:var(--tinta-suave);
+}
+.modelo-avaliacao dt{font-weight:700;color:var(--tinta);margin-top:.6rem}
+.modelo-avaliacao dt:first-child{margin-top:0}
+.modelo-avaliacao dd{margin:0}
+@media (max-width:820px){.prova-social .painel{grid-template-columns:1fr}}
+
+/* ============ 10. Presentes ============ */
+.presentes{background:var(--amarelo)}
+.presentes .container{display:grid;grid-template-columns:1.1fr .9fr;gap:3rem;align-items:center}
+.presentes p{color:#4A3410}
+.presentes-arte{display:flex;justify-content:center}
+.presentes-arte svg{width:min(300px,75%)}
+@media (max-width:820px){.presentes .container{grid-template-columns:1fr}}
+
+/* ============ 11. FAQ ============ */
+.faq details{
+  background:var(--branco);border-radius:var(--raio);box-shadow:var(--sombra);
+  margin-bottom:.9rem;overflow:hidden;
+}
+.faq summary{
+  cursor:pointer;list-style:none;display:flex;justify-content:space-between;gap:1rem;
+  align-items:center;padding:1.2rem 1.5rem;font-weight:700;font-size:1.02rem;
+}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary::after{
+  content:"+";font-family:var(--fonte-titulo);font-size:1.6rem;color:var(--terracota);
+  flex:none;line-height:1;transition:transform .2s ease;
+}
+.faq details[open] summary::after{transform:rotate(45deg)}
+.faq .resposta{padding:0 1.5rem 1.4rem;color:var(--tinta-suave);font-size:.97rem}
+.faq .resposta p{margin-bottom:.6em}
+.faq .resposta p:last-child{margin-bottom:0}
+
+/* ============ 12. Chamada final ============ */
+.chamada-final{
+  background:var(--terracota-escura);color:#F6E8DC;text-align:center;position:relative;overflow:hidden;
+}
+.chamada-final h2{color:#fff;font-size:clamp(1.9rem,4.5vw,3rem)}
+.chamada-final p{max-width:36rem;margin-inline:auto;color:#EBD3C2}
+.chamada-final .sol-fundo{
+  position:absolute;top:-140px;left:50%;transform:translateX(-50%);opacity:.14;width:520px;pointer-events:none;
+}
+
+/* ============ 13. Rodapé ============ */
+.rodape{background:var(--tinta);color:#CBBBA9;font-size:.92rem}
+.rodape a{color:#E8D9C8;text-decoration:none}
+.rodape a:hover{color:var(--amarelo);text-decoration:underline}
+.rodape-grid{
+  display:grid;grid-template-columns:1.4fr 1fr 1fr 1fr;gap:2.5rem;
+  padding-block:3.5rem 2.5rem;
+}
+.rodape h3{color:#fff;font-size:1rem;font-family:var(--fonte-texto);letter-spacing:.05em;text-transform:uppercase;margin-bottom:1rem}
+.rodape ul{margin:0;padding:0;list-style:none}
+.rodape li{margin-bottom:.55rem}
+.rodape .logo{color:#fff;margin-bottom:1rem}
+.rodape .logo small{color:var(--amarelo)}
+.pagamentos{display:flex;flex-wrap:wrap;gap:.45rem;margin-top:.8rem}
+.pagamentos span{
+  background:rgba(255,253,248,.1);border:1px solid rgba(255,253,248,.2);
+  padding:.22rem .65rem;border-radius:6px;font-size:.75rem;font-weight:600;color:#E8D9C8;
+}
+.rodape-base{
+  border-top:1px solid rgba(255,253,248,.15);padding-block:1.4rem;
+  display:flex;flex-wrap:wrap;gap:.8rem 2rem;justify-content:space-between;font-size:.82rem;
+}
+@media (max-width:900px){.rodape-grid{grid-template-columns:1fr 1fr}}
+@media (max-width:560px){.rodape-grid{grid-template-columns:1fr}}
+
+/* ============ Animações discretas ============ */
+@media (prefers-reduced-motion:no-preference){
+  /* o estado oculto só se aplica quando o JS está ativo (html.js) — sem JS, tudo fica visível */
+  html.js .revelar{opacity:0;transform:translateY(18px);transition:opacity .6s ease,transform .6s ease}
+  html.js .revelar.visivel{opacity:1;transform:none}
+}
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  *,*::before,*::after{animation:none!important;transition:none!important}
+}
+</style>
+
+<!-- ===================== Dados estruturados ===================== -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://atelie.sertaoprofundo.com/#organizacao",
+      "name": "Ateliê Sertão Profundo",
+      "url": "https://atelie.sertaoprofundo.com/",
+      "description": "Loja de vestuário autoral com estampas inspiradas na cultura, na arte e no imaginário nordestino. Sediada em Campina Grande, Paraíba, com envio para todo o Brasil.",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Campina Grande",
+        "addressRegion": "PB",
+        "addressCountry": "BR"
+      },
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+55-83-98813-4176",
+        "contactType": "customer service",
+        "availableLanguage": "Portuguese"
+      },
+      "sameAs": ["https://www.instagram.com/sertaoprofundo/"]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://atelie.sertaoprofundo.com/#site",
+      "url": "https://atelie.sertaoprofundo.com/",
+      "name": "Ateliê Sertão Profundo",
+      "inLanguage": "pt-BR",
+      "publisher": { "@id": "https://atelie.sertaoprofundo.com/#organizacao" }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://atelie.sertaoprofundo.com/#pagina",
+      "url": "https://atelie.sertaoprofundo.com/",
+      "name": "Camisetas Nordestinas Autorais | Ateliê Sertão Profundo",
+      "description": "Camisetas com estampas nordestinas autorais, inspiradas na arte, na música e na poesia do Sertão. Parcele em até 6x e receba em todo o Brasil.",
+      "inLanguage": "pt-BR",
+      "isPartOf": { "@id": "https://atelie.sertaoprofundo.com/#site" },
+      "about": { "@id": "https://atelie.sertaoprofundo.com/#organizacao" }
+    }
+  ]
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Produtos em destaque — Ateliê Sertão Profundo",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "item": {
+        "@type": "Product",
+        "name": "Camiseta Fé na Festa",
+        "category": "Camiseta",
+        "url": "https://atelie.sertaoprofundo.com/ateliesertaoprofundo/product/fe-na-festa",
+        "brand": { "@type": "Brand", "name": "Ateliê Sertão Profundo" },
+        "offers": { "@type": "Offer", "priceCurrency": "BRL", "price": "106.90", "url": "https://atelie.sertaoprofundo.com/ateliesertaoprofundo/product/fe-na-festa" }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "item": {
+        "@type": "Product",
+        "name": "Camiseta O Voo do Carcará",
+        "category": "Camiseta",
+        "url": "https://atelie.sertaoprofundo.com/ateliesertaoprofundo/product/o-voo-do-carcara",
+        "brand": { "@type": "Brand", "name": "Ateliê Sertão Profundo" },
+        "offers": { "@type": "Offer", "priceCurrency": "BRL", "price": "106.90", "url": "https://atelie.sertaoprofundo.com/ateliesertaoprofundo/product/o-voo-do-carcara" }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "item": {
+        "@type": "Product",
+        "name": "Camiseta Cacto em Terracota",
+        "category": "Camiseta",
+        "url": "https://atelie.sertaoprofundo.com/ateliesertaoprofundo/product/cacto-em-terracota",
+        "brand": { "@type": "Brand", "name": "Ateliê Sertão Profundo" },
+        "offers": { "@type": "Offer", "priceCurrency": "BRL", "price": "106.90", "url": "https://atelie.sertaoprofundo.com/ateliesertaoprofundo/product/cacto-em-terracota" }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 4,
+      "item": {
+        "@type": "Product",
+        "name": "Camiseta Céu e Chão",
+        "category": "Camiseta",
+        "url": "https://atelie.sertaoprofundo.com/ateliesertaoprofundo/product/ceu-e-chao",
+        "brand": { "@type": "Brand", "name": "Ateliê Sertão Profundo" },
+        "offers": { "@type": "Offer", "priceCurrency": "BRL", "price": "106.90", "url": "https://atelie.sertaoprofundo.com/ateliesertaoprofundo/product/ceu-e-chao" }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 5,
+      "item": {
+        "@type": "Product",
+        "name": "Camiseta Guardião do Maracatu",
+        "category": "Camiseta",
+        "url": "https://atelie.sertaoprofundo.com/ateliesertaoprofundo/product/guardiao-do-maracatu",
+        "brand": { "@type": "Brand", "name": "Ateliê Sertão Profundo" },
+        "offers": { "@type": "Offer", "priceCurrency": "BRL", "price": "106.90", "url": "https://atelie.sertaoprofundo.com/ateliesertaoprofundo/product/guardiao-do-maracatu" }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 6,
+      "item": {
+        "@type": "Product",
+        "name": "Camiseta Coroa do Cangaceiro",
+        "category": "Camiseta",
+        "url": "https://atelie.sertaoprofundo.com/ateliesertaoprofundo/product/coroa-do-cangaceiro",
+        "brand": { "@type": "Brand", "name": "Ateliê Sertão Profundo" },
+        "offers": { "@type": "Offer", "priceCurrency": "BRL", "price": "106.90", "url": "https://atelie.sertaoprofundo.com/ateliesertaoprofundo/product/coroa-do-cangaceiro" }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 7,
+      "item": {
+        "@type": "Product",
+        "name": "Camiseta Trio de Forró",
+        "category": "Camiseta",
+        "url": "https://atelie.sertaoprofundo.com/ateliesertaoprofundo/product/trio-de-forro-7ddecba6-5f9c-43f2-93cf-b3eb12973895",
+        "brand": { "@type": "Brand", "name": "Ateliê Sertão Profundo" },
+        "offers": { "@type": "Offer", "priceCurrency": "BRL", "price": "106.90", "url": "https://atelie.sertaoprofundo.com/ateliesertaoprofundo/product/trio-de-forro-7ddecba6-5f9c-43f2-93cf-b3eb12973895" }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 8,
+      "item": {
+        "@type": "Product",
+        "name": "Camiseta Pé de Bode",
+        "category": "Camiseta",
+        "url": "https://atelie.sertaoprofundo.com/ateliesertaoprofundo/product/pe-de-bode",
+        "brand": { "@type": "Brand", "name": "Ateliê Sertão Profundo" },
+        "offers": { "@type": "Offer", "priceCurrency": "BRL", "price": "106.90", "url": "https://atelie.sertaoprofundo.com/ateliesertaoprofundo/product/pe-de-bode" }
+      }
+    }
+  ]
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "O que é o Ateliê Sertão Profundo?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "O Ateliê Sertão Profundo é uma loja de vestuário autoral sediada em Campina Grande, na Paraíba. Criamos camisetas e outras peças com estampas inspiradas na cultura, na arte, na música e no imaginário nordestino, com envio para todo o Brasil."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Onde comprar camisetas com estampas nordestinas?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Você compra diretamente na loja oficial do Ateliê Sertão Profundo, em atelie.sertaoprofundo.com. Todo o catálogo fica disponível online, com pagamento seguro e entrega em qualquer região do Brasil."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Quais tipos de produtos estão disponíveis?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Além das camisetas tradicionais, a loja oferece camisetas oversized, camisetas de algodão peruano, camisetas infantis, bodies infantis, regatas, croppeds, moletons, croppeds de moletom, hoodies e suéteres de moletom."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "As peças são enviadas para todo o Brasil?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sim. O frete é calculado no checkout de acordo com o CEP, a quantidade de peças e o valor do pedido, e é grátis em compras a partir de R$ 299,00. As peças são produzidas sob demanda em 2 a 5 dias úteis, e o prazo informado na compra já inclui produção e entrega."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Quais são as formas de pagamento?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Aceitamos Pix com 3% de desconto, cartões de crédito (Visa, Mastercard, Elo, American Express e Diners Club) com parcelamento em até 6x sem juros, e boleto bancário, cuja compensação pode levar até 3 dias."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Como escolher o tamanho da camiseta?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Cada página de produto traz tabelas de medidas das versões masculina e feminina. Compare as medidas com uma peça que você já usa e, em caso de dúvida, fale com a gente pelo WhatsApp antes de finalizar a compra."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Como funciona a troca de produtos?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A primeira troca é sem custo. Você pode solicitar a troca em até 30 dias após o recebimento — ou em até 90 dias em caso de defeito. Para devolução com reembolso, o prazo é de até 7 dias corridos a partir do recebimento. Tudo é feito pela área de pedidos do site, acessando com o e-mail usado na compra."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Onde acompanho o meu pedido?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "O acompanhamento fica disponível no e-mail de confirmação da compra e também na aba Meus Pedidos do site, acessando com o e-mail utilizado no pedido."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Como falar com o atendimento?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "O atendimento é feito pelo WhatsApp (83) 98813-4176, por e-mail e pelas redes sociais da marca, como o Instagram @sertaoprofundo."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "As estampas são autorais?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sim. As estampas são criações autorais do ateliê, inspiradas nas festas, nas crenças, na música e nas paisagens do Nordeste, com referências à xilogravura e à estética armorial."
+      }
+    }
+  ]
+}
+</script>
+</head>
+
+<body>
+<a class="pular-conteudo" href="#conteudo">Pular para o conteúdo</a>
+
+<!-- ===================== 1. Barra de benefícios ===================== -->
+<div class="barra-beneficios" role="region" aria-label="Benefícios da loja">
+  <div class="container">
+    <ul>
+      <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>Até 6x sem juros</li>
+      <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>Frete grátis a partir de R$ 299</li>
+      <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>3% de desconto no Pix</li>
+      <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>Primeira troca sem custo</li>
+      <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>Envio para todo o Brasil</li>
+    </ul>
+  </div>
+</div>
+
+<!-- ===================== 2. Cabeçalho ===================== -->
+<header class="cabecalho">
+  <div class="container cabecalho-inner">
+    <a class="logo" href="#inicio" aria-label="Ateliê Sertão Profundo — voltar ao início">
+      <svg viewBox="0 0 48 48" aria-hidden="true">
+        <circle cx="24" cy="24" r="13" fill="#E9A63B"/>
+        <g stroke="#A8431A" stroke-width="3" stroke-linecap="round">
+          <path d="M24 3v6M24 39v6M3 24h6M39 24h6M9 9l4.2 4.2M34.8 34.8 39 39M39 9l-4.2 4.2M13.2 34.8 9 39"/>
+        </g>
+        <path d="M24 17v14M19 21c0 2.5 2 4 5 4M29 19c0 3-2 4.5-5 4.5" stroke="#2A1B12" stroke-width="2.6" stroke-linecap="round" fill="none"/>
+      </svg>
+      <strong>Ateliê<br>Sertão Profundo<small>Campina Grande · PB</small></strong>
+    </a>
+
+    <button class="btn-menu" type="button" aria-expanded="false" aria-controls="menu-principal" id="botao-menu">
+      <span class="sr-only" style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)">Abrir menu</span>
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+    </button>
+
+    <nav class="nav-principal" id="menu-principal" aria-label="Navegação principal">
+      <ul>
+        <li><a href="#colecoes">Coleções</a></li>
+        <li><a href="#produtos">Produtos</a></li>
+        <li><a href="#manifesto">Nossa história</a></li>
+        <li><a href="#contato">Contato</a></li>
+        <li class="so-mobile"><a href="https://atelie.sertaoprofundo.com/ateliesertaoprofundo"><strong>Conhecer as estampas →</strong></a></li>
+      </ul>
+    </nav>
+
+    <div class="acoes-cabecalho">
+      <a class="icone-carrinho" href="https://atelie.sertaoprofundo.com/ateliesertaoprofundo" aria-label="Ir para a loja e ver o carrinho">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M6 7h12l1.5 12.5a1 1 0 0 1-1 1.5h-13a1 1 0 0 1-1-1.5L6 7Z"/><path d="M9 10V6a3 3 0 0 1 6 0v4"/>
+        </svg>
+      </a>
+      <a class="btn btn-primario btn-cabecalho" href="https://atelie.sertaoprofundo.com/ateliesertaoprofundo">Conhecer as estampas</a>
+    </div>
+  </div>
+</header>
+
+<main id="conteudo">
+<!-- ===================== 3. Hero ===================== -->
+<section class="hero" id="inicio" aria-labelledby="titulo-hero">
+  <div class="container hero-grid">
+    <div class="hero-texto">
+      <span class="sobretitulo">Vestuário autoral do Nordeste</span>
+      <h1 id="titulo-hero">Camisetas autorais que vestem as histórias do Sertão</h1>
+      <p class="lead">Arte, poesia, música e tradição nordestina transformadas em camisetas com estampas nordestinas para vestir, presentear e levar com você por onde for.</p>
+      <div class="hero-ctas">
+        <a class="btn btn-primario" href="https://atelie.sertaoprofundo.com/ateliesertaoprofundo">Conheça nossas estampas</a>
+        <a class="btn btn-secundario" href="#manifesto">Explore o Sertão Profundo</a>
+      </div>
+      <p class="hero-selo">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 2 3 7v6c0 5 4 8.5 9 9 5-.5 9-4 9-9V7l-9-5Z"/><path d="m9 12 2 2 4-4"/></svg>
+        Feito em Campina Grande, Paraíba — enviado para todo o Brasil.
+      </p>
+    </div>
+
+    <!--
+      IMAGEM REAL SUGERIDA (hero): fotografia de uma camiseta da marca em uso, com a estampa
+      bem visível (ex.: "Fé na Festa" ou "O Voo do Carcará"), luz natural, fundo neutro.
+      Formato WebP/AVIF, ~1200x1500px, SEM lazy loading (é a imagem principal), com
+      width/height definidos e fetchpriority="high".
+      Alt sugerido: "Camiseta autoral com estampa inspirada nas festas do Sertão nordestino."
+      A ilustração abaixo é um marcador temporário no estilo da marca.
+    -->
+    <figure class="hero-visual">
+      <div class="moldura">
+        <svg viewBox="0 0 600 720" role="img" aria-label="Ilustração de sol, mandacarus e pássaros no Sertão, no estilo das estampas da marca">
+          <rect width="600" height="720" fill="#EFE3CC"/>
+          <circle cx="300" cy="270" r="150" fill="#E9A63B"/>
+          <g stroke="#A8431A" stroke-width="7" stroke-linecap="round">
+            <path d="M300 70v46M300 424v46M100 270h46M454 270h46M158 128l33 33M409 379l33 33M442 128l-33 33M191 379l-33 33"/>
+          </g>
+          <circle cx="300" cy="270" r="112" fill="#D97B33"/>
+          <g fill="none" stroke="#7E3213" stroke-width="5" stroke-linecap="round">
+            <path d="M255 250c8 12 22 12 30 0M315 250c8 12 22 12 30 0"/>
+            <path d="M262 305c22 20 54 20 76 0"/>
+          </g>
+          <g fill="#2A1B12">
+            <path d="M120 96c10-8 26-8 34 2-12 2-16 8-14 16-10 0-20-8-20-18Z"/>
+            <path d="M462 78c10-8 26-8 34 2-12 2-16 8-14 16-10 0-20-8-20-18Z"/>
+          </g>
+          <g fill="#3F6B4F">
+            <path d="M96 720V486c0-22 34-22 34 0v58c0 8 12 8 12 0v-96c0-22 34-22 34 0v96c0 30-22 40-40 40h-6v136Z"/>
+            <path d="M474 720V520c0-20 30-20 30 0v40c0 7 11 7 11 0v-70c0-20 30-20 30 0v70c0 27-20 36-36 36h-5v124Z"/>
+          </g>
+          <g stroke="#2F5140" stroke-width="3" stroke-linecap="round">
+            <path d="M113 540v120M130 560v100M491 580v100M506 596v84"/>
+          </g>
+          <path d="M0 640c100-36 220-54 300-54s200 18 300 54v80H0Z" fill="#C77B4A"/>
+          <path d="M0 668c100-30 210-46 300-46s200 16 300 46v52H0Z" fill="#A8431A"/>
+          <g stroke="#7E3213" stroke-width="3" stroke-linecap="round" opacity=".6">
+            <path d="M60 676c40-10 90-18 130-22M420 652c50 4 100 12 130 22"/>
+          </g>
+        </svg>
+      </div>
+      <figcaption>Do imaginário do Sertão para o tecido: cada estampa é uma narrativa.</figcaption>
+    </figure>
+  </div>
+</section>
+
+<svg class="bandeirolas" viewBox="0 0 1200 26" preserveAspectRatio="none" aria-hidden="true">
+  <path d="M0 0h1200v4H0z" fill="currentColor"/>
+  <g fill="currentColor">
+    <path d="M0 4l25 20L50 4zM100 4l25 20L125 4z" opacity="0"/>
+  </g>
+  <g>
+    <path fill="#A8431A" d="M0 4 25 22 50 4z"/><path fill="#1E3A5F" d="M60 4 85 22 110 4z"/>
+    <path fill="#E9A63B" d="M120 4 145 22 170 4z"/><path fill="#3F6B4F" d="M180 4 205 22 230 4z"/>
+    <path fill="#A8431A" d="M240 4 265 22 290 4z"/><path fill="#1E3A5F" d="M300 4 325 22 350 4z"/>
+    <path fill="#E9A63B" d="M360 4 385 22 410 4z"/><path fill="#3F6B4F" d="M420 4 445 22 470 4z"/>
+    <path fill="#A8431A" d="M480 4 505 22 530 4z"/><path fill="#1E3A5F" d="M540 4 565 22 590 4z"/>
+    <path fill="#E9A63B" d="M600 4 625 22 650 4z"/><path fill="#3F6B4F" d="M660 4 685 22 710 4z"/>
+    <path fill="#A8431A" d="M720 4 745 22 770 4z"/><path fill="#1E3A5F" d="M780 4 805 22 830 4z"/>
+    <path fill="#E9A63B" d="M840 4 865 22 890 4z"/><path fill="#3F6B4F" d="M900 4 925 22 950 4z"/>
+    <path fill="#A8431A" d="M960 4 985 22 1010 4z"/><path fill="#1E3A5F" d="M1020 4 1045 22 1070 4z"/>
+    <path fill="#E9A63B" d="M1080 4 1105 22 1130 4z"/><path fill="#3F6B4F" d="M1140 4 1165 22 1190 4z"/>
+  </g>
+</svg>
+
+<!-- ===================== 4. Manifesto ===================== -->
+<section class="manifesto secao" id="manifesto" aria-labelledby="titulo-manifesto">
+  <div class="container">
+    <div class="revelar">
+      <span class="sobretitulo" style="color:var(--amarelo)">Nossa história</span>
+      <h2 id="titulo-manifesto">Um Sertão que não se vê apenas. Um Sertão que se sente.</h2>
+      <p>De Campina Grande, na Paraíba, o Ateliê Sertão Profundo cria roupas com temática nordestina que funcionam como uma passagem: quem veste atravessa para o lado de dentro do imaginário do Sertão — o das festas de junho, dos trios de forró, dos mandacarus floridos, dos santos, dos cantadores e das visagens que povoam as noites do interior.</p>
+      <p>Cada estampa nasce de uma memória, de um verso, de uma melodia ou de uma crença, e dialoga com a tradição gráfica nordestina — da xilogravura à estética armorial — traduzida em um design contemporâneo. O resultado são peças que guardam narrativas: personagens, símbolos, paisagens e sons de uma cultura viva, que segue se reinventando.</p>
+      <p>Vestir uma dessas histórias é um gesto de memória e pertencimento — para quem nasceu no Nordeste, para quem partiu e o carrega no peito, e para quem o ama de longe.</p>
+      <blockquote class="citacao">
+        <p style="margin:0;color:inherit">“Cada peça é uma história. Cada história é uma viagem. Quem veste se torna personagem desse universo.”</p>
+        <footer>— O espírito do Ateliê Sertão Profundo</footer>
+      </blockquote>
+    </div>
+    <div class="manifesto-arte revelar" aria-hidden="true">
+      <!-- IMAGEM REAL SUGERIDA: foto em detalhe (close) de uma estampa sobre o tecido,
+           mostrando a textura da impressão. Alt sugerido: "Detalhe de estampa autoral
+           impressa em camiseta de algodão." -->
+      <svg viewBox="0 0 400 460">
+        <rect x="20" y="20" width="360" height="420" rx="16" fill="none" stroke="#E9A63B" stroke-width="3" stroke-dasharray="2 10" stroke-linecap="round"/>
+        <circle cx="200" cy="150" r="66" fill="#E9A63B"/>
+        <g stroke="#F6EFE2" stroke-width="4" stroke-linecap="round">
+          <path d="M200 62v20M200 218v20M112 150h20M268 150h20M140 90l14 14M246 196l14 14M260 90l-14 14M154 196l-14 14"/>
+        </g>
+        <path d="M148 340V262c0-16 24-16 24 0v30c0 6 9 6 9 0v-52c0-16 24-16 24 0v52c0 22-16 29-29 29h-4v19Z" fill="#7FA98C"/>
+        <path d="M262 340v-58c0-14 21-14 21 0v20c0 5 8 5 8 0v-38c0-14 21-14 21 0v38c0 19-14 25-25 25h-4v13Z" fill="#7FA98C"/>
+        <g fill="#F6EFE2">
+          <path d="M96 372c7-6 18-6 24 1-8 2-11 6-10 11-7 0-14-5-14-12Z"/>
+          <path d="M292 388c7-6 18-6 24 1-8 2-11 6-10 11-7 0-14-5-14-12Z"/>
+        </g>
+        <path d="M60 420c46-14 96-22 140-22s94 8 140 22" stroke="#E9A63B" stroke-width="4" fill="none" stroke-linecap="round"/>
+        <g fill="#F6EFE2" opacity=".9">
+          <circle cx="90" cy="80" r="3"/><circle cx="320" cy="64" r="4"/><circle cx="340" cy="230" r="3"/><circle cx="70" cy="250" r="4"/>
+          <path d="m310 110 4 8 8 4-8 4-4 8-4-8-8-4 8-4Z"/>
+          <path d="m86 180 3 6 6 3-6 3-3 6-3-6-6-3 6-3Z"/>
+        </g>
+      </svg>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== 5. Coleções ===================== -->
+<section class="secao" id="colecoes" aria-labelledby="titulo-colecoes">
+  <div class="container">
+    <span class="sobretitulo">Universos criativos</span>
+    <h2 id="titulo-colecoes">Coleções para cada canto do imaginário nordestino</h2>
+    <p class="intro-secao">Cada coleção reúne estampas inspiradas no Nordeste que compartilham um mesmo universo — das fogueiras de junho aos mistérios do Sertão. Escolha por onde começar a viagem.</p>
+
+    <div class="grade-colecoes">
+      <!-- IMAGENS REAIS SUGERIDAS para os cards: foto da camiseta mais representativa de cada
+           coleção, fundo limpo, formato 4:3, WebP/AVIF, loading="lazy", width/height definidos. -->
+      <a class="card-colecao revelar" href="https://atelie.sertaoprofundo.com/ateliesertaoprofundo/collections/forro-no-sertao">
+        <div class="vitrine" style="background:#E9A63B" role="img" aria-label="Bandeirolas e fogueira de festa junina, tema da coleção São João no Sertão">
+          <svg viewBox="0 0 120 100" aria-hidden="true">
+            <path d="M4 10h112" stroke="#2A1B12" stroke-width="3" stroke-linecap="round"/>
+            <path fill="#A8431A" d="M12 12l10 14 10-14z"/><path fill="#1E3A5F" d="M38 12l10 14 10-14z"/>
+            <path fill="#3F6B4F" d="M64 12l10 14 10-14z"/><path fill="#7E3213" d="M90 12l10 14 10-14z"/>
+            <path d="M60 44c-10 10-16 18-16 28a16 16 0 0 0 32 0c0-10-6-18-16-28Z" fill="#A8431A"/>
+            <path d="M60 58c-5 6-8 10-8 15a8 8 0 0 0 16 0c0-5-3-9-8-15Z" fill="#E9A63B" stroke="#7E3213" stroke-width="2"/>
+            <path d="M34 92h52" stroke="#2A1B12" stroke-width="4" stroke-linecap="round"/>
+          </svg>
+        </div>
+        <div class="corpo">
+          <h3>São João no Sertão</h3>
+          <p>Santos juninos, fogueiras, bandeirolas e a fé que vira festa no meio do ano.</p>
+          <span class="falso-link">Ver coleção de São João →</span>
+        </div>
+      </a>
+
+      <a class="card-colecao revelar" href="https://atelie.sertaoprofundo.com/ateliesertaoprofundo/collections/musica-e-tradicao">
+        <div class="vitrine" style="background:#1E3A5F" role="img" aria-label="Sanfona estilizada, tema da coleção Música e Tradição">
+          <svg viewBox="0 0 120 100" aria-hidden="true">
+            <rect x="14" y="26" width="18" height="48" rx="4" fill="#E9A63B"/>
+            <rect x="88" y="26" width="18" height="48" rx="4" fill="#E9A63B"/>
+            <g stroke="#F6EFE2" stroke-width="4" stroke-linecap="round">
+              <path d="M38 30v40M50 26v48M62 26v48M74 30v40"/>
+            </g>
+            <g fill="#A8431A"><circle cx="23" cy="38" r="3"/><circle cx="23" cy="50" r="3"/><circle cx="23" cy="62" r="3"/></g>
+            <g fill="#A8431A"><circle cx="97" cy="38" r="3"/><circle cx="97" cy="50" r="3"/><circle cx="97" cy="62" r="3"/></g>
+            <path d="m30 14 4 6M90 14l-4 6" stroke="#E9A63B" stroke-width="3" stroke-linecap="round"/>
+            <g fill="#F6EFE2"><path d="M52 84c0 4 8 4 8 0v-4h-8ZM68 88c0 4 8 4 8 0v-4h-8Z"/><path d="M56 80h20v-6c-8-2-14-2-20 0Z" opacity=".9"/></g>
+          </svg>
+        </div>
+        <div class="corpo">
+          <h3>Música e Tradição</h3>
+          <p>Zabumba, sanfona e triângulo: o forró e os sons que embalam o Sertão.</p>
+          <span class="falso-link">Ver coleção de música →</span>
+        </div>
+      </a>
+
+      <a class="card-colecao revelar" href="https://atelie.sertaoprofundo.com/ateliesertaoprofundo/collections/cactos-e-poesia">
+        <div class="vitrine" style="background:#3F6B4F" role="img" aria-label="Mandacaru florido sob estrelas, tema da coleção Cactos e Poesia">
+          <svg viewBox="0 0 120 100" aria-hidden="true">
+            <path d="M52 92V38c0-12 16-12 16 0v22c0 5 8 5 8 0V26c0-12 16-12 16 0v34c0 16-12 22-22 22h-2v10Z" fill="#7FA98C" transform="translate(-16 0)"/>
+            <circle cx="44" cy="30" r="7" fill="#E9A63B"/>
+            <g fill="#F6EFE2">
+              <path d="m92 22 4 8 8 4-8 4-4 8-4-8-8-4 8-4Z"/>
+              <circle cx="104" cy="58" r="3"/><circle cx="86" cy="70" r="2.5"/><circle cx="20" cy="16" r="2.5"/>
+            </g>
+            <path d="M16 92h88" stroke="#F6EFE2" stroke-width="3" stroke-linecap="round"/>
+          </svg>
+        </div>
+        <div class="corpo">
+          <h3>Cactos e Poesia</h3>
+          <p>A flora que floresce na seca e os versos que brotam do chão rachado.</p>
+          <span class="falso-link">Ver coleção de cactos →</span>
+        </div>
+      </a>
+
+      <a class="card-colecao revelar" href="https://atelie.sertaoprofundo.com/ateliesertaoprofundo/collections/arte-e-misticismo">
+        <div class="vitrine" style="background:#7E3213" role="img" aria-label="Lua, olho místico e estrelas, tema da coleção Arte e Misticismo">
+          <svg viewBox="0 0 120 100" aria-hidden="true">
+            <path d="M74 20a28 28 0 1 0 22 44 32 32 0 0 1-22-44Z" fill="#E9A63B"/>
+            <g fill="#F6EFE2">
+              <path d="m30 18 4 8 8 4-8 4-4 8-4-8-8-4 8-4Z"/>
+              <circle cx="24" cy="62" r="3"/><circle cx="42" cy="78" r="2.5"/><circle cx="102" cy="18" r="2.5"/>
+            </g>
+            <path d="M38 46c8-8 22-8 30 0-8 8-22 8-30 0Z" fill="#F6EFE2" transform="translate(-6 28)"/>
+            <circle cx="47" cy="74" r="5" fill="#1E3A5F"/>
+          </svg>
+        </div>
+        <div class="corpo">
+          <h3>Arte e Misticismo</h3>
+          <p>Visagens, crenças e mistérios que atravessam as noites do interior.</p>
+          <span class="falso-link">Ver coleção mística →</span>
+        </div>
+      </a>
+
+      <a class="card-colecao revelar" href="https://atelie.sertaoprofundo.com/ateliesertaoprofundo/collections/presentes-do-sertao">
+        <div class="vitrine" style="background:#A8431A" role="img" aria-label="Estandarte e confetes de carnaval, tema da coleção Carnaval do Sertão">
+          <svg viewBox="0 0 120 100" aria-hidden="true">
+            <path d="M60 14v72" stroke="#2A1B12" stroke-width="4" stroke-linecap="round"/>
+            <path d="M60 18h34l-8 12 8 12H60Z" fill="#E9A63B"/>
+            <path d="M60 18H26l8 12-8 12h34Z" fill="#1E3A5F"/>
+            <g fill="#F6EFE2">
+              <circle cx="28" cy="66" r="3"/><circle cx="92" cy="60" r="3"/><circle cx="40" cy="84" r="2.5"/>
+              <circle cx="82" cy="82" r="2.5"/><circle cx="104" cy="76" r="2"/><circle cx="16" cy="48" r="2"/>
+            </g>
+            <path d="M60 30h24M60 30H36" stroke="#F6EFE2" stroke-width="2" opacity=".7"/>
+          </svg>
+        </div>
+        <div class="corpo">
+          <h3>Carnaval do Sertão</h3>
+          <p>La Ursa, estandartes e a folia que toma as ruas do interior nordestino.</p>
+          <span class="falso-link">Ver coleção de carnaval →</span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== 6. Produtos em destaque ===================== -->
+<section class="produtos secao" id="produtos" aria-labelledby="titulo-produtos">
+  <div class="container">
+    <span class="sobretitulo">Peças em destaque</span>
+    <h2 id="titulo-produtos">Camisetas do Sertão para começar a viagem</h2>
+    <p class="intro-secao">Uma amostra do catálogo: camisetas de algodão 30.1 penteado, com estampas autorais e tabelas de medidas nas versões masculina e feminina.</p>
+
+    <!-- IMAGENS REAIS SUGERIDAS: para cada card, a foto oficial do produto na loja
+         (mockup da camiseta com a estampa), formato quadrado 1:1, WebP/AVIF,
+         loading="lazy", width="600" height="600". Alt sugeridos no README de entrega. -->
+    <div class="grade-produtos">
+
+      <article class="card-produto revelar">
+        <div class="estampa" style="background:#E9A63B" role="img" aria-label="Estampa da camiseta Fé na Festa, com bandeirolas e estrela junina">
+          <svg viewBox="0 0 100 100" aria-hidden="true">
+            <path d="M6 14h88" stroke="#2A1B12" stroke-width="3" stroke-linecap="round"/>
+            <path fill="#A8431A" d="M14 16l8 11 8-11z"/><path fill="#1E3A5F" d="M40 16l8 11 8-11z"/><path fill="#3F6B4F" d="M66 16l8 11 8-11z"/>
+            <path d="m50 42 6 12 13 2-9 9 2 13-12-6-12 6 2-13-9-9 13-2Z" fill="#7E3213"/>
+            <path d="M22 88h56" stroke="#2A1B12" stroke-width="3" stroke-linecap="round"/>
+          </svg>
+          <span class="tag-categoria">Camiseta</span>
+        </div>
+        <div class="corpo">
+          <h3>Fé na Festa</h3>
+          <p class="preco">R$ 106,90</p>
+          <p class="preco-pix">R$ 103,70 à vista no Pix</p>
+          <p class="parcelas">ou até 6x de R$ 17,82 sem juros</p>
+          <a class="btn btn-primario" href="https://atelie.sertaoprofundo.com/ateliesertaoprofundo/product/fe-na-festa">Ver detalhes<span style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)"> da camiseta Fé na Festa</span></a>
+        </div>
+      </article>
+
+      <article class="card-produto revelar">
+        <div class="estampa" style="background:#1E3A5F" role="img" aria-label="Estampa da camiseta O Voo do Carcará, com pássaro sobre o sol">
+          <svg viewBox="0 0 100 100" aria-hidden="true">
+            <circle cx="50" cy="62" r="24" fill="#E9A63B"/>
+            <path d="M50 30c-6-10-20-14-30-8 8 2 12 6 14 12 6-4 12-4 16-4Zm0 0c6-10 20-14 30-8-8 2-12 6-14 12-6-4-12-4-16-4Z" fill="#F6EFE2"/>
+            <path d="M50 30c0 6-2 12-6 16m6-16c0 6 2 12 6 16" stroke="#F6EFE2" stroke-width="3" stroke-linecap="round" fill="none"/>
+            <path d="M18 88h64" stroke="#F6EFE2" stroke-width="3" stroke-linecap="round"/>
+          </svg>
+          <span class="tag-categoria">Camiseta</span>
+        </div>
+        <div class="corpo">
+          <h3>O Voo do Carcará</h3>
+          <p class="preco">R$ 106,90</p>
+          <p class="preco-pix">R$ 103,70 à vista no Pix</p>
+          <p class="parcelas">ou até 6x de R$ 17,82 sem juros</p>
+          <a class="btn btn-primario" href="https://atelie.sertaoprofundo.com/ateliesertaoprofundo/product/o-voo-do-carcara">Ver detalhes<span style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)"> da camiseta O Voo do Carcará</span></a>
+        </div>
+      </article>
+
+      <article class="card-produto revelar">
+        <div class="estampa" style="background:#C77B4A" role="img" aria-label="Estampa da camiseta Cacto em Terracota, com mandacaru em vaso">
+          <svg viewBox="0 0 100 100" aria-hidden="true">
+            <path d="M44 64V34c0-10 12-10 12 0v12c0 4 7 4 7 0V30c0-10 12-10 12-0v16c0 12-9 17-16 17h-3v1Z" fill="#3F6B4F" transform="translate(-8 0)"/>
+            <path d="M32 66h36l-4 22H36Z" fill="#7E3213"/>
+            <path d="M30 62h40v6H30Z" fill="#2A1B12"/>
+            <circle cx="40" cy="28" r="5" fill="#E9A63B"/>
+          </svg>
+          <span class="tag-categoria">Camiseta</span>
+        </div>
+        <div class="corpo">
+          <h3>Cacto em Terracota</h3>
+          <p class="preco">R$ 106,90</p>
+          <p class="preco-pix">R$ 103,70 à vista no Pix</p>
+          <p class="parcelas">ou até 6x de R$ 17,82 sem juros</p>
+          <a class="btn btn-primario" href="https://atelie.sertaoprofundo.com/ateliesertaoprofundo/product/cacto-em-terracota">Ver detalhes<span style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)"> da camiseta Cacto em Terracota</span></a>
+        </div>
+      </article>
+
+      <article class="card-produto revelar">
+        <div class="estampa" style="background:#3F6B4F" role="img" aria-label="Estampa da camiseta Céu e Chão, com sol e lua sobre o horizonte">
+          <svg viewBox="0 0 100 100" aria-hidden="true">
+            <circle cx="34" cy="36" r="14" fill="#E9A63B"/>
+            <path d="M76 24a13 13 0 1 0 10 21 15 15 0 0 1-10-21Z" fill="#F6EFE2"/>
+            <path d="M12 70c14-6 26-9 38-9s24 3 38 9" stroke="#F6EFE2" stroke-width="3" fill="none" stroke-linecap="round"/>
+            <path d="M20 84c10-4 20-6 30-6s20 2 30 6" stroke="#E9A63B" stroke-width="3" fill="none" stroke-linecap="round"/>
+            <circle cx="62" cy="56" r="2" fill="#F6EFE2"/><circle cx="18" cy="54" r="2" fill="#F6EFE2"/>
+          </svg>
+          <span class="tag-categoria">Camiseta</span>
+        </div>
+        <div class="corpo">
+          <h3>Céu e Chão</h3>
+          <p class="preco">R$ 106,90</p>
+          <p class="preco-pix">R$ 103,70 à vista no Pix</p>
+          <p class="parcelas">ou até 6x de R$ 17,82 sem juros</p>
+          <a class="btn btn-primario" href="https://atelie.sertaoprofundo.com/ateliesertaoprofundo/product/ceu-e-chao">Ver detalhes<span style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)"> da camiseta Céu e Chão</span></a>
+        </div>
+      </article>
+
+      <article class="card-produto revelar">
+        <div class="estampa" style="background:#7E3213" role="img" aria-label="Estampa da camiseta Guardião do Maracatu, com coroa e estrelas">
+          <svg viewBox="0 0 100 100" aria-hidden="true">
+            <path d="M24 64V38l14 12 12-20 12 20 14-12v26Z" fill="#E9A63B"/>
+            <path d="M24 64h52v10H24Z" fill="#1E3A5F"/>
+            <circle cx="38" cy="52" r="3" fill="#A8431A"/><circle cx="50" cy="48" r="3" fill="#A8431A"/><circle cx="62" cy="52" r="3" fill="#A8431A"/>
+            <g fill="#F6EFE2"><circle cx="20" cy="26" r="2.5"/><circle cx="80" cy="24" r="2.5"/><path d="m50 12 3 6 6 3-6 3-3 6-3-6-6-3 6-3Z"/></g>
+          </svg>
+          <span class="tag-categoria">Camiseta</span>
+        </div>
+        <div class="corpo">
+          <h3>Guardião do Maracatu</h3>
+          <p class="preco">R$ 106,90</p>
+          <p class="preco-pix">R$ 103,70 à vista no Pix</p>
+          <p class="parcelas">ou até 6x de R$ 17,82 sem juros</p>
+          <a class="btn btn-primario" href="https://atelie.sertaoprofundo.com/ateliesertaoprofundo/product/guardiao-do-maracatu">Ver detalhes<span style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)"> da camiseta Guardião do Maracatu</span></a>
+        </div>
+      </article>
+
+      <article class="card-produto revelar">
+        <div class="estampa" style="background:#2A1B12" role="img" aria-label="Estampa da camiseta Coroa do Cangaceiro, com chapéu de couro estrelado">
+          <svg viewBox="0 0 100 100" aria-hidden="true">
+            <path d="M50 22c-18 0-30 12-32 30 10-8 20-12 32-12s22 4 32 12c-2-18-14-30-32-30Z" fill="#C77B4A"/>
+            <path d="M30 46h40v14a20 8 0 0 1-40 0Z" fill="#A8431A"/>
+            <g fill="#E9A63B">
+              <path d="m50 30 2.5 5 5 2.5-5 2.5-2.5 5-2.5-5-5-2.5 5-2.5Z"/>
+              <circle cx="38" cy="54" r="2.5"/><circle cx="50" cy="57" r="2.5"/><circle cx="62" cy="54" r="2.5"/>
+            </g>
+            <path d="M22 84h56" stroke="#E9A63B" stroke-width="3" stroke-linecap="round"/>
+          </svg>
+          <span class="tag-categoria">Camiseta</span>
+        </div>
+        <div class="corpo">
+          <h3>Coroa do Cangaceiro</h3>
+          <p class="preco">R$ 106,90</p>
+          <p class="preco-pix">R$ 103,70 à vista no Pix</p>
+          <p class="parcelas">ou até 6x de R$ 17,82 sem juros</p>
+          <a class="btn btn-primario" href="https://atelie.sertaoprofundo.com/ateliesertaoprofundo/product/coroa-do-cangaceiro">Ver detalhes<span style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)"> da camiseta Coroa do Cangaceiro</span></a>
+        </div>
+      </article>
+
+      <article class="card-produto revelar">
+        <div class="estampa" style="background:#E9A63B" role="img" aria-label="Estampa da camiseta Trio de Forró, com sanfona, triângulo e zabumba">
+          <svg viewBox="0 0 100 100" aria-hidden="true">
+            <rect x="10" y="34" width="10" height="30" rx="3" fill="#A8431A"/>
+            <rect x="34" y="34" width="10" height="30" rx="3" fill="#A8431A"/>
+            <g stroke="#7E3213" stroke-width="3" stroke-linecap="round"><path d="M24 38v22M29 36v26"/></g>
+            <path d="m62 34 12 24H50Z" fill="none" stroke="#1E3A5F" stroke-width="4" stroke-linejoin="round"/>
+            <circle cx="84" cy="62" r="12" fill="#7E3213"/><circle cx="84" cy="62" r="7" fill="#F6EFE2"/>
+            <path d="M14 82h72" stroke="#7E3213" stroke-width="3" stroke-linecap="round"/>
+          </svg>
+          <span class="tag-categoria">Camiseta</span>
+        </div>
+        <div class="corpo">
+          <h3>Trio de Forró</h3>
+          <p class="preco">R$ 106,90</p>
+          <p class="preco-pix">R$ 103,70 à vista no Pix</p>
+          <p class="parcelas">ou até 6x de R$ 17,82 sem juros</p>
+          <a class="btn btn-primario" href="https://atelie.sertaoprofundo.com/ateliesertaoprofundo/product/trio-de-forro-7ddecba6-5f9c-43f2-93cf-b3eb12973895">Ver detalhes<span style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)"> da camiseta Trio de Forró</span></a>
+        </div>
+      </article>
+
+      <article class="card-produto revelar">
+        <div class="estampa" style="background:#1E3A5F" role="img" aria-label="Estampa da camiseta Pé de Bode, com sanfona de oito baixos">
+          <svg viewBox="0 0 100 100" aria-hidden="true">
+            <rect x="18" y="28" width="16" height="44" rx="4" fill="#E9A63B"/>
+            <rect x="66" y="28" width="16" height="44" rx="4" fill="#E9A63B"/>
+            <g stroke="#F6EFE2" stroke-width="3.5" stroke-linecap="round"><path d="M40 32v36M50 28v44M60 32v36"/></g>
+            <g fill="#A8431A"><circle cx="26" cy="38" r="2.5"/><circle cx="26" cy="48" r="2.5"/><circle cx="26" cy="58" r="2.5"/><circle cx="26" cy="66" r="2.5"/></g>
+            <g fill="#A8431A"><circle cx="74" cy="38" r="2.5"/><circle cx="74" cy="48" r="2.5"/><circle cx="74" cy="58" r="2.5"/><circle cx="74" cy="66" r="2.5"/></g>
+            <path d="M30 86h40" stroke="#E9A63B" stroke-width="3" stroke-linecap="round"/>
+          </svg>
+          <span class="tag-categoria">Camiseta</span>
+        </div>
+        <div class="corpo">
+          <h3>Pé de Bode</h3>
+          <p class="preco">R$ 106,90</p>
+          <p class="preco-pix">R$ 103,70 à vista no Pix</p>
+          <p class="parcelas">ou até 6x de R$ 17,82 sem juros</p>
+          <a class="btn btn-primario" href="https://atelie.sertaoprofundo.com/ateliesertaoprofundo/product/pe-de-bode">Ver detalhes<span style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)"> da camiseta Pé de Bode</span></a>
+        </div>
+      </article>
+    </div>
+
+    <p class="aviso-precos">Preços e condições verificados na loja oficial. Confira o valor vigente na página de cada produto.</p>
+    <p style="text-align:center;margin-top:1.5rem">
+      <a class="btn btn-secundario" href="https://atelie.sertaoprofundo.com/ateliesertaoprofundo">Ver todos os produtos da loja</a>
+    </p>
+  </div>
+</section>
+
+<!-- ===================== 7. Por que escolher ===================== -->
+<section class="secao" id="porque" aria-labelledby="titulo-porque">
+  <div class="container">
+    <span class="sobretitulo">Por que escolher</span>
+    <h2 id="titulo-porque">Moda nordestina autoral, feita para durar na memória</h2>
+
+    <div class="grade-beneficios">
+      <div class="item-beneficio revelar">
+        <div class="icone"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 19c-4 1.5-7-1-8-4C8 13 10 9 12 5c2 4 4 8 8 10-1 3-4 5.5-8 4Z"/><path d="M12 19v3"/></svg></div>
+        <h3>Estampas com identidade</h3>
+        <p>Criações autorais que contam histórias do imaginário nordestino, com referências à xilogravura e à estética armorial.</p>
+      </div>
+      <div class="item-beneficio revelar">
+        <div class="icone"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20.4 14.5 16 10 4 20"/><rect x="2" y="4" width="20" height="16" rx="2"/><circle cx="8" cy="9" r="2"/></svg></div>
+        <h3>Algodão 30.1 penteado</h3>
+        <p>Camisetas 100% algodão (a mescla cinza leva 12% de poliéster), com toque macio e caimento confortável.</p>
+      </div>
+      <div class="item-beneficio revelar">
+        <div class="icone"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 2 3 7v6c0 5 4 8.5 9 9 5-.5 9-4 9-9V7l-9-5Z"/><path d="m9 12 2 2 4-4"/></svg></div>
+        <h3>Compra segura</h3>
+        <p>Loja com conexão criptografada e verificação Google Safe Browsing para você comprar tranquilo.</p>
+      </div>
+      <div class="item-beneficio revelar">
+        <div class="icone"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 17h-2v-6l3-6h9v12"/><path d="M15 7h4l3 5v5h-2"/><circle cx="7.5" cy="17.5" r="2"/><circle cx="17.5" cy="17.5" r="2"/></svg></div>
+        <h3>Envio para todo o Brasil</h3>
+        <p>Frete calculado pelo CEP no checkout e grátis em pedidos a partir de R$ 299,00.</p>
+      </div>
+      <div class="item-beneficio revelar">
+        <div class="icone"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="5" width="20" height="14" rx="2"/><path d="M2 10h20"/></svg></div>
+        <h3>Parcelamento em até 6x</h3>
+        <p>Divida sua compra em até 6 vezes sem juros nos principais cartões de crédito.</p>
+      </div>
+      <div class="item-beneficio revelar">
+        <div class="icone"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m12 3 4 4-4 4-4-4Z"/><path d="m12 13 4 4-4 4-4-4Z"/><path d="m3 8 4 4-4 4"/><path d="m21 8-4 4 4 4"/></svg></div>
+        <h3>3% de desconto no Pix</h3>
+        <p>Pagando à vista no Pix, o desconto é aplicado direto no valor da peça.</p>
+      </div>
+      <div class="item-beneficio revelar">
+        <div class="icone"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 12a9 9 0 0 1 15-6.7L21 8"/><path d="M21 3v5h-5"/><path d="M21 12a9 9 0 0 1-15 6.7L3 16"/><path d="M3 21v-5h5"/></svg></div>
+        <h3>Primeira troca sem custo</h3>
+        <p>Não serviu? A primeira troca é gratuita, com solicitação em até 30 dias após o recebimento.</p>
+      </div>
+      <div class="item-beneficio revelar">
+        <div class="icone"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 11.5a8.5 8.5 0 0 1-12.3 7.6L3 21l1.9-5.7A8.5 8.5 0 1 1 21 11.5Z"/></svg></div>
+        <h3>Atendimento pelo WhatsApp</h3>
+        <p>Dúvidas sobre tamanho, pedido ou troca? É só chamar no WhatsApp que a gente responde.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== 8. Editorial: como nasce uma estampa ===================== -->
+<section class="processo secao" id="processo" aria-labelledby="titulo-processo">
+  <div class="container">
+    <span class="sobretitulo" style="color:var(--amarelo)">Bastidores</span>
+    <h2 id="titulo-processo">Da imaginação do Sertão para o tecido</h2>
+    <p class="intro-secao">Toda estampa do ateliê percorre o mesmo caminho: começa como faísca no imaginário e termina vestida, ganhando o mundo.</p>
+
+    <div class="passos">
+      <div class="passo revelar">
+        <h3>A faísca</h3>
+        <p>Uma memória de infância, um verso de cordel, uma música de sanfona ou uma lenda contada na calçada acende a primeira ideia.</p>
+      </div>
+      <div class="passo revelar">
+        <h3>O traço</h3>
+        <p>A ideia vira ilustração autoral, desenhada em diálogo com a xilogravura, a estética armorial e as cores do Sertão.</p>
+      </div>
+      <div class="passo revelar">
+        <h3>O tecido</h3>
+        <p>A arte é estampada sob demanda em camisetas de algodão 30.1 penteado, com produção em 2 a 5 dias úteis.</p>
+      </div>
+      <div class="passo revelar">
+        <h3>A travessia</h3>
+        <p>A peça chega até você em qualquer canto do Brasil — e quem veste passa a fazer parte da história que ela conta.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== 9. Prova social ===================== -->
+<section class="prova-social secao" id="avaliacoes" aria-labelledby="titulo-avaliacoes">
+  <div class="container">
+    <span class="sobretitulo">Quem veste, conta</span>
+    <h2 id="titulo-avaliacoes">Histórias de quem já atravessou para o Sertão Profundo</h2>
+
+    <div class="painel revelar">
+      <div>
+        <div class="estrelas" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="m12 2 3 6.6 7 .9-5.2 4.8L18.2 21 12 17.4 5.8 21l1.4-6.7L2 9.5l7-.9Z"/></svg>
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="m12 2 3 6.6 7 .9-5.2 4.8L18.2 21 12 17.4 5.8 21l1.4-6.7L2 9.5l7-.9Z"/></svg>
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="m12 2 3 6.6 7 .9-5.2 4.8L18.2 21 12 17.4 5.8 21l1.4-6.7L2 9.5l7-.9Z"/></svg>
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="m12 2 3 6.6 7 .9-5.2 4.8L18.2 21 12 17.4 5.8 21l1.4-6.7L2 9.5l7-.9Z"/></svg>
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="m12 2 3 6.6 7 .9-5.2 4.8L18.2 21 12 17.4 5.8 21l1.4-6.7L2 9.5l7-.9Z"/></svg>
+        </div>
+        <p>Este espaço é reservado para avaliações verificadas de clientes. Enquanto elas são reunidas, você pode ver as peças em uso e o que as pessoas compartilham marcando a marca no Instagram.</p>
+        <p><a class="btn btn-claro" href="https://www.instagram.com/sertaoprofundo/" rel="noopener" target="_blank">Ver clientes no Instagram @sertaoprofundo</a></p>
+        <p style="font-size:.85rem;color:var(--tinta-suave);margin-top:1rem">Comprou uma peça? Conte sua experiência pelo WhatsApp ou marque <strong>@sertaoprofundo</strong> nas suas fotos — com sua autorização, sua história pode aparecer aqui.</p>
+      </div>
+      <dl class="modelo-avaliacao" aria-label="Estrutura reservada para futuras avaliações de clientes">
+        <dt>Nome</dt><dd>Espaço reservado para o nome do cliente</dd>
+        <dt>Produto adquirido</dt><dd>Espaço reservado para a peça comprada</dd>
+        <dt>Comentário</dt><dd>Espaço reservado para a avaliação verificada</dd>
+        <dt>Nota</dt><dd>Espaço reservado para a nota (1 a 5)</dd>
+        <dt>Foto</dt><dd>Publicada somente com autorização do cliente</dd>
+      </dl>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== 10. Presentes ===================== -->
+<section class="presentes secao" id="presentes" aria-labelledby="titulo-presentes">
+  <div class="container">
+    <div class="revelar">
+      <span class="sobretitulo" style="color:#7E3213">Para presentear</span>
+      <h2 id="titulo-presentes">Presentes que carregam histórias</h2>
+      <p>Para quem ama o Nordeste, colecionar discos de forró, ler cordel ou dançar até a sanfona pedir arrego: uma camiseta do Sertão Profundo é um presente nordestino criativo, que chega com narrativa, afeto e identidade — não apenas com tecido.</p>
+      <p>Tem opções para todos os tamanhos de personagem: camisetas adulto e infantil, bodies para os miudinhos, moletons e regatas.</p>
+      <a class="btn btn-primario" href="https://atelie.sertaoprofundo.com/ateliesertaoprofundo">Encontrar um presente</a>
+    </div>
+    <div class="presentes-arte revelar" aria-hidden="true">
+      <!-- IMAGEM REAL SUGERIDA: foto de peça infantil + adulto lado a lado, ou peça embalada.
+           Alt sugerido: "Camisetas adulto e infantil com estampas do Sertão, ideais para presente." -->
+      <svg viewBox="0 0 300 260">
+        <rect x="60" y="90" width="180" height="140" rx="10" fill="#A8431A"/>
+        <rect x="60" y="90" width="180" height="34" rx="10" fill="#7E3213"/>
+        <path d="M150 90v140" stroke="#F6EFE2" stroke-width="10"/>
+        <path d="M150 90c-30-6-56-26-40-46 14-16 36 10 40 30 4-20 26-46 40-30 16 20-10 40-40 46Z" fill="#E9A63B" stroke="#7E3213" stroke-width="4"/>
+        <g fill="#F6EFE2"><circle cx="92" cy="160" r="4"/><circle cx="208" cy="150" r="4"/><path d="m110 196 3 6 6 3-6 3-3 6-3-6-6-3 6-3Z"/><path d="m196 186 3 6 6 3-6 3-3 6-3-6-6-3 6-3Z"/></g>
+      </svg>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== 11. FAQ ===================== -->
+<section class="faq secao" id="faq" aria-labelledby="titulo-faq">
+  <div class="container" style="max-width:820px">
+    <span class="sobretitulo">Perguntas frequentes</span>
+    <h2 id="titulo-faq">Tudo o que você precisa saber antes de vestir o Sertão</h2>
+
+    <details>
+      <summary>O que é o Ateliê Sertão Profundo?</summary>
+      <div class="resposta"><p>É uma loja de vestuário autoral sediada em Campina Grande, na Paraíba. Criamos camisetas e outras peças com estampas inspiradas na cultura, na arte, na música e no imaginário nordestino, com envio para todo o Brasil.</p></div>
+    </details>
+    <details>
+      <summary>Onde comprar camisetas com estampas nordestinas?</summary>
+      <div class="resposta"><p>Diretamente na <a href="https://atelie.sertaoprofundo.com/ateliesertaoprofundo">loja oficial do Ateliê Sertão Profundo</a>. Todo o catálogo fica disponível online, com pagamento seguro e entrega em qualquer região do Brasil.</p></div>
+    </details>
+    <details>
+      <summary>Quais tipos de produtos estão disponíveis?</summary>
+      <div class="resposta"><p>Além das camisetas tradicionais, a loja oferece camisetas oversized, camisetas de algodão peruano, camisetas infantis, bodies infantis, regatas, croppeds, moletons, croppeds de moletom, hoodies e suéteres de moletom.</p></div>
+    </details>
+    <details>
+      <summary>As peças são enviadas para todo o Brasil?</summary>
+      <div class="resposta"><p>Sim. O frete é calculado no checkout de acordo com o CEP, a quantidade de peças e o valor do pedido, e é grátis em compras a partir de R$ 299,00. As peças são produzidas sob demanda em 2 a 5 dias úteis, e o prazo informado na compra já inclui produção e entrega.</p></div>
+    </details>
+    <details>
+      <summary>Quais são as formas de pagamento?</summary>
+      <div class="resposta"><p>Aceitamos Pix com 3% de desconto, cartões de crédito (Visa, Mastercard, Elo, American Express e Diners Club) com parcelamento em até 6x sem juros, e boleto bancário, cuja compensação pode levar até 3 dias.</p></div>
+    </details>
+    <details>
+      <summary>Como escolher o tamanho da camiseta?</summary>
+      <div class="resposta"><p>Cada página de produto traz tabelas de medidas das versões masculina e feminina. Compare as medidas com uma peça que você já usa e, em caso de dúvida, fale com a gente pelo <a href="https://api.whatsapp.com/send?phone=5583988134176" rel="noopener" target="_blank">WhatsApp</a> antes de finalizar a compra.</p></div>
+    </details>
+    <details>
+      <summary>Como funciona a troca de produtos?</summary>
+      <div class="resposta"><p>A primeira troca é sem custo. Você pode solicitar a troca em até 30 dias após o recebimento — ou em até 90 dias em caso de defeito. Para devolução com reembolso, o prazo é de até 7 dias corridos a partir do recebimento. Tudo é feito pela área de pedidos do site, acessando com o e-mail usado na compra.</p></div>
+    </details>
+    <details>
+      <summary>Onde acompanho o meu pedido?</summary>
+      <div class="resposta"><p>O acompanhamento fica disponível no e-mail de confirmação da compra e também na aba Meus Pedidos do site, acessando com o e-mail utilizado no pedido.</p></div>
+    </details>
+    <details>
+      <summary>Como falar com o atendimento?</summary>
+      <div class="resposta"><p>O atendimento é feito pelo <a href="https://api.whatsapp.com/send?phone=5583988134176" rel="noopener" target="_blank">WhatsApp (83) 98813-4176</a>, por e-mail e pelas redes sociais da marca, como o <a href="https://www.instagram.com/sertaoprofundo/" rel="noopener" target="_blank">Instagram @sertaoprofundo</a>.</p></div>
+    </details>
+    <details>
+      <summary>As estampas são autorais?</summary>
+      <div class="resposta"><p>Sim. As estampas são criações autorais do ateliê, inspiradas nas festas, nas crenças, na música e nas paisagens do Nordeste, com referências à xilogravura e à estética armorial.</p></div>
+    </details>
+  </div>
+</section>
+
+<!-- ===================== 12. Chamada final ===================== -->
+<section class="chamada-final secao" aria-labelledby="titulo-final">
+  <svg class="sol-fundo" viewBox="0 0 200 200" aria-hidden="true">
+    <circle cx="100" cy="100" r="55" fill="#E9A63B"/>
+    <g stroke="#E9A63B" stroke-width="8" stroke-linecap="round">
+      <path d="M100 10v25M100 165v25M10 100h25M165 100h25M36 36l18 18M146 146l18 18M164 36l-18 18M54 146l-18 18"/>
+    </g>
+  </svg>
+  <div class="container">
+    <h2 id="titulo-final">Qual história do Sertão você vai vestir?</h2>
+    <p>Descubra peças que transformam arte, memória e tradição em uma forma única de expressão.</p>
+    <a class="btn btn-claro" href="https://atelie.sertaoprofundo.com/ateliesertaoprofundo" style="margin-top:1rem">Explorar todas as peças</a>
+  </div>
+</section>
+</main>
+
+<!-- ===================== 13. Rodapé ===================== -->
+<footer class="rodape" id="contato">
+  <div class="container">
+    <div class="rodape-grid">
+      <div>
+        <a class="logo" href="#inicio">
+          <svg viewBox="0 0 48 48" aria-hidden="true">
+            <circle cx="24" cy="24" r="13" fill="#E9A63B"/>
+            <g stroke="#A8431A" stroke-width="3" stroke-linecap="round">
+              <path d="M24 3v6M24 39v6M3 24h6M39 24h6M9 9l4.2 4.2M34.8 34.8 39 39M39 9l-4.2 4.2M13.2 34.8 9 39"/>
+            </g>
+            <path d="M24 17v14M19 21c0 2.5 2 4 5 4M29 19c0 3-2 4.5-5 4.5" stroke="#2A1B12" stroke-width="2.6" stroke-linecap="round" fill="none"/>
+          </svg>
+          <strong>Ateliê<br>Sertão Profundo<small>Campina Grande · PB</small></strong>
+        </a>
+        <p>Vestuário autoral inspirado na cultura, na arte, na poesia e no imaginário nordestino. Cada estampa é uma narrativa; cada peça, uma travessia.</p>
+        <p style="margin:0">Campina Grande, Paraíba — envio para todo o Brasil.</p>
+        <div class="pagamentos" aria-label="Formas de pagamento aceitas">
+          <span>Pix</span><span>Visa</span><span>Mastercard</span><span>Elo</span><span>Amex</span><span>Diners</span><span>Boleto</span>
+        </div>
+      </div>
+
+      <nav aria-label="Links da loja">
+        <h3>Loja</h3>
+        <ul>
+          <li><a href="https://atelie.sertaoprofundo.com/ateliesertaoprofundo">Todos os produtos</a></li>
+          <li><a href="https://atelie.sertaoprofundo.com/ateliesertaoprofundo?product_type=1">Camisetas</a></li>
+          <li><a href="https://atelie.sertaoprofundo.com/ateliesertaoprofundo?product_type=178">Camisetas oversized</a></li>
+          <li><a href="https://atelie.sertaoprofundo.com/ateliesertaoprofundo?product_type=2">Camisetas infantis</a></li>
+          <li><a href="https://atelie.sertaoprofundo.com/ateliesertaoprofundo?product_type=10">Moletons</a></li>
+          <li><a href="https://atelie.sertaoprofundo.com/ateliesertaoprofundo?product_type=8">Regatas</a></li>
+        </ul>
+      </nav>
+
+      <nav aria-label="Coleções">
+        <h3>Coleções</h3>
+        <ul>
+          <li><a href="https://atelie.sertaoprofundo.com/ateliesertaoprofundo/collections/forro-no-sertao">São João no Sertão</a></li>
+          <li><a href="https://atelie.sertaoprofundo.com/ateliesertaoprofundo/collections/musica-e-tradicao">Música e Tradição</a></li>
+          <li><a href="https://atelie.sertaoprofundo.com/ateliesertaoprofundo/collections/cactos-e-poesia">Cactos e Poesia</a></li>
+          <li><a href="https://atelie.sertaoprofundo.com/ateliesertaoprofundo/collections/arte-e-misticismo">Arte e Misticismo</a></li>
+          <li><a href="https://atelie.sertaoprofundo.com/ateliesertaoprofundo/collections/presentes-do-sertao">Carnaval do Sertão</a></li>
+        </ul>
+      </nav>
+
+      <nav aria-label="Ajuda e institucional">
+        <h3>Ajuda</h3>
+        <ul>
+          <li><a href="https://atelie.sertaoprofundo.com/ateliesertaoprofundo/about">Sobre o ateliê</a></li>
+          <li><a href="https://atelie.sertaoprofundo.com/ateliesertaoprofundo/faq">Perguntas frequentes</a></li>
+          <li><a href="https://atelie.sertaoprofundo.com/ateliesertaoprofundo/exchanges_and_returns">Trocas e devoluções</a></li>
+          <li><a href="https://atelie.sertaoprofundo.com/ateliesertaoprofundo/terms/privacy_policy">Política de privacidade</a></li>
+          <li><a href="https://atelie.sertaoprofundo.com/ateliesertaoprofundo/terms/terms_of_use">Termos de uso</a></li>
+          <li><a href="https://atelie.sertaoprofundo.com/ateliesertaoprofundo/store_sessions/new">Rastrear meu pedido</a></li>
+          <li><a href="https://api.whatsapp.com/send?phone=5583988134176" rel="noopener" target="_blank">WhatsApp (83) 98813-4176</a></li>
+          <li><a href="https://www.instagram.com/sertaoprofundo/" rel="noopener" target="_blank">Instagram @sertaoprofundo</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="rodape-base">
+      <p style="margin:0">© 2026 Ateliê Sertão Profundo — Campina Grande, Paraíba. Todos os direitos reservados.</p>
+      <p style="margin:0">Estampas autorais inspiradas no imaginário nordestino.</p>
+    </div>
+  </div>
+</footer>
+
+<script>
+document.documentElement.classList.add('js');
+
+// Menu mobile acessível
+(function(){
+  var botao=document.getElementById('botao-menu');
+  var menu=document.getElementById('menu-principal');
+  botao.addEventListener('click',function(){
+    var aberto=menu.classList.toggle('aberto');
+    botao.setAttribute('aria-expanded',aberto?'true':'false');
+  });
+  menu.addEventListener('click',function(e){
+    if(e.target.closest('a')){menu.classList.remove('aberto');botao.setAttribute('aria-expanded','false');}
+  });
+})();
+
+// Revelação suave ao rolar (desativada com prefers-reduced-motion)
+(function(){
+  var itens=document.querySelectorAll('.revelar');
+  if(window.matchMedia('(prefers-reduced-motion: reduce)').matches||!('IntersectionObserver' in window)){
+    itens.forEach(function(el){el.classList.add('visivel');});
+    return;
+  }
+  var obs=new IntersectionObserver(function(entradas){
+    entradas.forEach(function(en){
+      if(en.isIntersecting){en.target.classList.add('visivel');obs.unobserve(en.target);}
+    });
+  },{threshold:.12});
+  itens.forEach(function(el){obs.observe(el);});
+})();
+</script>
+</body>
+</html>
